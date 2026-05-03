@@ -95,7 +95,7 @@ CODEOWNERS не має містити глобальне правило `* @OWNE
 - `scripts/build-manifest.mjs`, який генерує public manifest, checksum, size і redirects;
 - `scripts/check-document-orphans.mjs`, який перевіряє завантажені файли без прив'язки до публікацій;
 - `.github/workflows/ci.yml`, який запускає `npm ci`, `npm run check` і `npm run build`;
-- `.node-version`, `.nvmrc` і `package.json`, які фіксують Node.js 22;
+- `.node-version`, `.nvmrc` і `package.json`, які фіксують Node.js 24 як runtime baseline;
 - перевірка, що `draft` не потрапляє в публічний архів.
 
 CMS працює в режимі прямого запису в GitHub-репозиторій. Draft-стан документів контролюється полем `status` у metadata публікації, а не окремим workflow у CMS.

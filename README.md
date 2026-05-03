@@ -18,7 +18,7 @@
 - GitHub як репозиторій коду й контенту;
 - Cloudflare Pages для хостингу.
 
-Рекомендований runtime: Node.js 22. Версія зафіксована в `.node-version`, `.nvmrc` і `package.json`.
+Рекомендований runtime: Node.js 24. Версія зафіксована в `.node-version`, `.nvmrc` і `package.json`; локальна розробка також допускає Node.js 25.
 
 Сайт не залежить від runtime API Cloudflare. Його можна перенести на Netlify, Vercel або інший статичний хостинг, який може виконати `npm run build` і віддавати `dist/`.
 
