@@ -54,7 +54,6 @@ src/
       groups/
       manifest.json
       redirects.json
-  data/
   layouts/
   pages/
     admin/
@@ -67,6 +66,7 @@ public/
     ...
     uploads/
   images/
+    uploads/
 scripts/
   build-manifest.mjs
   check-document-orphans.mjs
