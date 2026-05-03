@@ -8,53 +8,48 @@
     "year": 2026,
     "publishedAt": "2026-02-09",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_report.docx",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2026/2026-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/31106821_report.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20260209/31106821_report.docx",
         "sizeBytes": 21783,
         "checksumSha256": "4eb8068fae10c35255c0ee6791c86de96b7b668eaf84738f92e1ebf984b6ad02"
       },
       {
         "id": "main-signature",
         "filename": "31106821_report.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2026/2026-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/31106821_report.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20260209/31106821_report.docx.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "9fc6b494aca89461c4a28e753e6c248269c376d26b9981a3ebc35847f24b1b22"
       },
       {
         "id": "xml",
         "filename": "report.xml",
-        "label": "report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2026/2026-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20260209/report.xml",
         "sizeBytes": 8845,
         "checksumSha256": "ef8ab06798f29c4c4394e0139840dedc76f750e47a7aefa55af3b6f36b8ea3ee"
       },
       {
         "id": "xml-signature",
         "filename": "report.xml.p7s",
-        "label": "report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2026/2026-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20260209/report.xml.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "262262cb177065ec9d0ab03e5fd58bfab74bef582c81642959f5bba866ce6c34"
       }
@@ -69,17 +64,15 @@
     "year": 2025,
     "publishedAt": "2025-08-01",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "Протокол АТІ 2025 позачергове-2.doc",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOC",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2025/2025-protokol-pozacherhovykh-zahalnykh-zboriv-aktsioneriv-01-08-2025/Протокол АТІ 2025 позачергове-2.doc",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%20%D0%90%D0%A2%D0%86%202025%20%D0%BF%D0%BE%D0%B7%D0%B0%D1%87%D0%B5%D1%80%D0%B3%D0%BE%D0%B2%D0%B5-2.doc",
         "sizeBytes": 83968,
         "checksumSha256": "78ace8c7f4da4bbbbc47dcb681eee8e6b59e8c3eacf673b99d26145d5ebfdb38"
       }
@@ -94,53 +87,48 @@
     "year": 2025,
     "publishedAt": "2025-07-31",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_попередня згода.docx",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/31106821_попередня згода.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20250731_1/31106821_%D0%BF%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%20%D0%B7%D0%B3%D0%BE%D0%B4%D0%B0.docx",
         "sizeBytes": 22395,
         "checksumSha256": "b6cc26917fbdda1e616989f8946df94ec7240011d5a347295cb834809e42e878"
       },
       {
         "id": "main-signature",
         "filename": "31106821_попередня згода.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/31106821_попередня згода.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20250731_1/31106821_%D0%BF%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%20%D0%B7%D0%B3%D0%BE%D0%B4%D0%B0.docx.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "f94f1d023752746c71277095a0ab455db395ebb5a71e3b1fca5f9c7071294b73"
       },
       {
         "id": "xml",
         "filename": "report.xml",
-        "label": "report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20250731_1/report.xml",
         "sizeBytes": 11224,
         "checksumSha256": "85781b5040cc91e82da573aef38d8d1626f414d222c431e14ad92d690b118d35"
       },
       {
         "id": "xml-signature",
         "filename": "report.xml.p7s",
-        "label": "report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20250731_1/report.xml.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "852ec258958b585a26ca163a23f4e9a1f855fb99cc80bd1807e81ae0d85ddf69"
       }
@@ -155,94 +143,50 @@
     "year": 2025,
     "publishedAt": "2025-07-31",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_значний правочин.docx",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/31106821_значний правочин.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20250731/31106821_%D0%B7%D0%BD%D0%B0%D1%87%D0%BD%D0%B8%D0%B8%CC%86%20%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%B8%D0%BD.docx",
         "sizeBytes": 21028,
         "checksumSha256": "b571c46a8ef46e1e41e8637d9fa46dc1485e7fed045d9e36ad0412ac222d4aff"
       },
       {
         "id": "main-signature",
         "filename": "31106821_значний правочин.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/31106821_значний правочин.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20250731/31106821_%D0%B7%D0%BD%D0%B0%D1%87%D0%BD%D0%B8%D0%B8%CC%86%20%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%B8%D0%BD.docx.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "1b62929d73142c603fb93832463a410ce595bc8325602affbab57ff58b2838e1"
       },
       {
         "id": "xml",
         "filename": "report.xml",
-        "label": "report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20250731/report.xml",
         "sizeBytes": 3779,
         "checksumSha256": "4163cd62805e660dd9cd029c3319161979292dc367114e8e8d2115141bea32f8"
       },
       {
         "id": "xml-signature",
         "filename": "report.xml.p7s",
-        "label": "report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20250731/report.xml.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "40b5c6cdaa6f392ccd1e20fdc8a3994734a8b87597488df9a87d953a6b60c45a"
-      }
-    ]
-  },
-  {
-    "id": "2024-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2024-roku",
-    "title": "Структура власності емітента станом на 31 грудня 2024 року",
-    "displayTitle": "Структура власності станом на 31.12.2024",
-    "type": "Структура власності",
-    "displayType": "Структура власності",
-    "year": 2024,
-    "publishedAt": "2024-12-31",
-    "periodEnd": "2024-12-31",
-    "reportingYear": 2024,
-    "status": "published",
-    "source": "legacy",
-    "files": [
-      {
-        "id": "main",
-        "filename": "Структура власності емітента 2024.pdf",
-        "label": "Завантажити файл",
-        "format": "PDF",
-        "role": "main",
-        "signsFileId": null,
-        "publicPath": "/documents/2024/2024-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2024-roku/Структура власності емітента 2024.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ownership-20241231/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96%20%D0%B5%D0%BC%D1%96%D1%82%D0%B5%D0%BD%D1%82%D0%B0%202024.pdf",
-        "sizeBytes": 817010,
-        "checksumSha256": "2b8835fe90a3418390a657205a4f5edccfb13c779d3ae6e85456c922ea79a4cc"
-      },
-      {
-        "id": "main-signature",
-        "filename": "Структура власності емітента 2024.pdf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
-        "format": "P7S",
-        "role": "signature",
-        "signsFileId": "main",
-        "publicPath": "/documents/2024/2024-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2024-roku/Структура власності емітента 2024.pdf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ownership-20241231/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96%20%D0%B5%D0%BC%D1%96%D1%82%D0%B5%D0%BD%D1%82%D0%B0%202024.pdf.p7s",
-        "sizeBytes": 18869,
-        "checksumSha256": "55b3a29196cf995b470a369135956d25075f7631dd87964c40b2eab950910ca4"
       }
     ]
   },
@@ -257,29 +201,26 @@
     "periodEnd": "2024-12-31",
     "reportingYear": 2024,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "Організаційна структура 2024.pdf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2024-roku/Організаційна структура 2024.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/orgstructure-20241231/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B8%CC%86%D0%BD%D0%B0%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%202024.pdf",
         "sizeBytes": 75770,
         "checksumSha256": "97924abb2c8741737adb01154236e20b78a3873389f5c3addfddd8749102caf8"
       },
       {
         "id": "main-signature",
         "filename": "Організаційна структура 2024.pdf.p7s",
-        "label": "Кваліфікований електронний підпис до документа (підпис)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2024/2024-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2024-roku/Організаційна структура 2024.pdf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/orgstructure-20241231/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B8%CC%86%D0%BD%D0%B0%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%202024.pdf.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "0e6f09ac9179ad585dd9c2db106700c7128e7f6254b75ec05019425aa74148f6"
       }
@@ -296,55 +237,86 @@
     "periodEnd": "2024-12-31",
     "reportingYear": 2024,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_2024.docx",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2024-rik/31106821_2024.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2024/31106821_2024.docx",
         "sizeBytes": 139497,
         "checksumSha256": "0089fec9cdc3550d0fcc80448e470b2bfd833f94628ba9272ef6c7573da28966"
       },
       {
         "id": "main-signature",
         "filename": "31106821_2024.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2024/2024-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2024-rik/31106821_2024.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2024/31106821_2024.docx.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "ff5d1db59da3c87510c4c6201964551567a2ea8f5a15dfa18f87e832676b70a3"
       },
       {
         "id": "xml",
         "filename": "ReportNoRNOKPP.xml",
-        "label": "ReportNoRNOKPP.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2024-rik/ReportNoRNOKPP.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2024/ReportNoRNOKPP.xml",
         "sizeBytes": 2362954,
         "checksumSha256": "ad041c26ad9704d6f1821cdee4899e218780588dfd53a395037de1ee5709a35a"
       },
       {
         "id": "xml-signature",
         "filename": "ReportNoRNOKPP.xml.p7s",
-        "label": "ReportNoRNOKPP.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2024/2024-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2024-rik/ReportNoRNOKPP.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2024/ReportNoRNOKPP.xml.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "8b71a97efd7e8df1bd957248c092c4e0216472bec3fc05e521744a3f322ff63c"
+      }
+    ]
+  },
+  {
+    "id": "2024-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2024-roku",
+    "title": "Структура власності емітента станом на 31 грудня 2024 року",
+    "displayTitle": "Структура власності станом на 31.12.2024",
+    "type": "Структура власності",
+    "displayType": "Структура власності",
+    "year": 2024,
+    "publishedAt": "2024-12-31",
+    "periodEnd": "2024-12-31",
+    "reportingYear": 2024,
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "Структура власності емітента 2024.pdf",
+        "label": "Основний документ",
+        "format": "PDF",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/2024/2024-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2024-roku/Структура власності емітента 2024.pdf",
+        "sizeBytes": 817010,
+        "checksumSha256": "2b8835fe90a3418390a657205a4f5edccfb13c779d3ae6e85456c922ea79a4cc"
+      },
+      {
+        "id": "main-signature",
+        "filename": "Структура власності емітента 2024.pdf.p7s",
+        "label": "Підпис основного документа",
+        "format": "P7S",
+        "role": "signature",
+        "signsFileId": "main",
+        "publicPath": "/documents/2024/2024-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2024-roku/Структура власності емітента 2024.pdf.p7s",
+        "sizeBytes": 18869,
+        "checksumSha256": "55b3a29196cf995b470a369135956d25075f7631dd87964c40b2eab950910ca4"
       }
     ]
   },
@@ -357,53 +329,48 @@
     "year": 2024,
     "publishedAt": "2024-05-10",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_ правочин.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-vidomosti-pro-pryiniattia-rishennia-pro-poperednie-nadannia-zhody-na/31106821_ правочин.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240510/31106821_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%B8%D0%BD/31106821_%20%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%B8%D0%BD.rtf",
         "sizeBytes": 61053,
         "checksumSha256": "d9a4236cfe8282b7b944e0744e9c5f7f2b0a7d15c52ba8ae42bde025214bfb96"
       },
       {
         "id": "main-signature",
         "filename": "31106821_ правочин.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-vidomosti-pro-pryiniattia-rishennia-pro-poperednie-nadannia-zhody-na/31106821_ правочин.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240510/31106821_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%B8%D0%BD/31106821_%20%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%B8%D0%BD.rtf.p7s",
         "sizeBytes": 18220,
         "checksumSha256": "6831937c7511032f14cfc11e6f82e9f34187c8159c995732ae8c98e77c362829"
       },
       {
         "id": "xml",
         "filename": "report.xml",
-        "label": "report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-vidomosti-pro-pryiniattia-rishennia-pro-poperednie-nadannia-zhody-na/report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240510/31106821_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%B8%D0%BD/report.xml",
         "sizeBytes": 1522,
         "checksumSha256": "c342bd13c747d4b169bae8a5c815af84742bc4a13c351f8e8ec3764c34fb2569"
       },
       {
         "id": "xml-signature",
         "filename": "report.xml.p7s",
-        "label": "report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-vidomosti-pro-pryiniattia-rishennia-pro-poperednie-nadannia-zhody-na/report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240510/31106821_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%B8%D0%BD/report.xml.p7s",
         "sizeBytes": 18220,
         "checksumSha256": "e5b866fb04a65c00fb7b24a97866f95bdb46a1514c47026443bb192b2d156b96"
       }
@@ -418,53 +385,48 @@
     "year": 2024,
     "publishedAt": "2024-05-10",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_про зміну складу посадових осіб.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-vidomosti-pro-zminu-skladu-posadovykh-osib-emitenta-10-05-2024/31106821_про зміну складу посадових осіб.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240510/31106821_%D0%B7%D0%BC%D1%96%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D1%83%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85/31106821_%D0%BF%D1%80%D0%BE%20%D0%B7%D0%BC%D1%96%D0%BD%D1%83%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D1%83%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85%20%D0%BE%D1%81%D1%96%D0%B1.rtf",
         "sizeBytes": 60791,
         "checksumSha256": "06d28c814921fb3d040f6bfb1288d48ba95e15fee847cb65085d63a439a0b7da"
       },
       {
         "id": "main-signature",
         "filename": "31106821_про зміну складу посадових осіб.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-vidomosti-pro-zminu-skladu-posadovykh-osib-emitenta-10-05-2024/31106821_про зміну складу посадових осіб.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240510/31106821_%D0%B7%D0%BC%D1%96%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D1%83%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85/31106821_%D0%BF%D1%80%D0%BE%20%D0%B7%D0%BC%D1%96%D0%BD%D1%83%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D1%83%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85%20%D0%BE%D1%81%D1%96%D0%B1.rtf.p7s",
         "sizeBytes": 18220,
         "checksumSha256": "e91b0b3cb1cf07e9b733b1120d77687c36d7b728bd323e8ddeb6437ea033a432"
       },
       {
         "id": "xml",
         "filename": "report3.xml",
-        "label": "report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-vidomosti-pro-zminu-skladu-posadovykh-osib-emitenta-10-05-2024/report3.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240510/31106821_%D0%B7%D0%BC%D1%96%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D1%83%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85/report3.xml",
         "sizeBytes": 1480,
         "checksumSha256": "1afc639b00e7d0e196330b298d4914c758870614b8b75878821cfd3474ceb484"
       },
       {
         "id": "xml-signature",
         "filename": "report3.xml.p7s",
-        "label": "report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-vidomosti-pro-zminu-skladu-posadovykh-osib-emitenta-10-05-2024/report3.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240510/31106821_%D0%B7%D0%BC%D1%96%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D1%83%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85/report3.xml.p7s",
         "sizeBytes": 18220,
         "checksumSha256": "1d6fa0131a43868c771f1c734a743e82f6f7b1cebf4feeeea2ab9c5752594a41"
       }
@@ -479,53 +441,48 @@
     "year": 2024,
     "publishedAt": "2024-04-29",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_попередня згода.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/31106821_попередня згода.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240429/31106821_%D0%BF%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%20%D0%B7%D0%B3%D0%BE%D0%B4%D0%B0/31106821_%D0%BF%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%20%D0%B7%D0%B3%D0%BE%D0%B4%D0%B0.rtf",
         "sizeBytes": 144118,
         "checksumSha256": "b126459c314385b620bb1a1ccd92a60d1762e9313c720015c6c966a71b71cb27"
       },
       {
         "id": "main-signature",
         "filename": "31106821_попередня згода.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/31106821_попередня згода.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240429/31106821_%D0%BF%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%20%D0%B7%D0%B3%D0%BE%D0%B4%D0%B0/31106821_%D0%BF%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%20%D0%B7%D0%B3%D0%BE%D0%B4%D0%B0.rtf.p7s",
         "sizeBytes": 2438,
         "checksumSha256": "9d0de69800e8db09e9fba40b2d80193f4b73fc9a40685c64fcb3d38d592f6f61"
       },
       {
         "id": "xml",
         "filename": "report.xml",
-        "label": "report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240429/31106821_%D0%BF%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%20%D0%B7%D0%B3%D0%BE%D0%B4%D0%B0/report.xml",
         "sizeBytes": 11151,
         "checksumSha256": "6949c87a9beef1e6428dff940f4d1523af4dbab24b07ec202dac38e97882e371"
       },
       {
         "id": "xml-signature",
         "filename": "report.xml.p7s",
-        "label": "report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240429/31106821_%D0%BF%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%20%D0%B7%D0%B3%D0%BE%D0%B4%D0%B0/report.xml.p7s",
         "sizeBytes": 2438,
         "checksumSha256": "add6ce765a0435f558ca3f1887617a7096130d0d6b41a42d175658df30da9ac6"
       }
@@ -540,94 +497,50 @@
     "year": 2024,
     "publishedAt": "2024-04-29",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_переобрання посадових осіб.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/31106821_переобрання посадових осіб.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240429/31106821_%D0%BF%D0%B5%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85%20%D0%BE%D1%81%D1%96%D0%B1/31106821_%D0%BF%D0%B5%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85%20%D0%BE%D1%81%D1%96%D0%B1.rtf",
         "sizeBytes": 190462,
         "checksumSha256": "997ba78cb6c332c524260006bd3b62ab8006e607e585c104e3d2172d26e4bacb"
       },
       {
         "id": "main-signature",
         "filename": "31106821_переобрання посадових осіб.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/31106821_переобрання посадових осіб.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240429/31106821_%D0%BF%D0%B5%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85%20%D0%BE%D1%81%D1%96%D0%B1/31106821_%D0%BF%D0%B5%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85%20%D0%BE%D1%81%D1%96%D0%B1.rtf.p7s",
         "sizeBytes": 2438,
         "checksumSha256": "0d5451a72d4c79a4c306ce8dba7dd3a7033c1e86c380d42233f2d50122e8230b"
       },
       {
         "id": "xml",
         "filename": "report.xml",
-        "label": "report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240429/31106821_%D0%BF%D0%B5%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85%20%D0%BE%D1%81%D1%96%D0%B1/report.xml",
         "sizeBytes": 10808,
         "checksumSha256": "977d2227a39380bb237e3b3014ea394f1d399d06e03b594160a00a7502f1c4ff"
       },
       {
         "id": "xml-signature",
         "filename": "report.xml.p7s",
-        "label": "report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2024/2024-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/20240429/31106821_%D0%BF%D0%B5%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%85%20%D0%BE%D1%81%D1%96%D0%B1/report.xml.p7s",
         "sizeBytes": 2438,
         "checksumSha256": "4d3b9fceba04428107f98524b85d3d4db115095fd7d278ab3c3a08b9fbf6a59c"
-      }
-    ]
-  },
-  {
-    "id": "2023-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2023-roku",
-    "title": "Структура власності емітента станом на 31 грудня 2023 року",
-    "displayTitle": "Структура власності станом на 31.12.2023",
-    "type": "Структура власності",
-    "displayType": "Структура власності",
-    "year": 2023,
-    "publishedAt": "2023-12-31",
-    "periodEnd": "2023-12-31",
-    "reportingYear": 2023,
-    "status": "published",
-    "source": "legacy",
-    "files": [
-      {
-        "id": "main",
-        "filename": "Структура власності емітента 2023.pdf",
-        "label": "Завантажити файл",
-        "format": "PDF",
-        "role": "main",
-        "signsFileId": null,
-        "publicPath": "/documents/2023/2023-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2023-roku/Структура власності емітента 2023.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ownership-20231231/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96%20%D0%B5%D0%BC%D1%96%D1%82%D0%B5%D0%BD%D1%82%D0%B0%202023.pdf",
-        "sizeBytes": 816549,
-        "checksumSha256": "632ec4206830d6724ded9a0cec85b7da850efcc493ab5f26a0b6bbd85926a49b"
-      },
-      {
-        "id": "main-signature",
-        "filename": "Структура власності емітента 2023.pdf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
-        "format": "P7S",
-        "role": "signature",
-        "signsFileId": "main",
-        "publicPath": "/documents/2023/2023-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2023-roku/Структура власності емітента 2023.pdf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ownership-20231231/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96%20%D0%B5%D0%BC%D1%96%D1%82%D0%B5%D0%BD%D1%82%D0%B0%202023.pdf.p7s",
-        "sizeBytes": 18869,
-        "checksumSha256": "b12f9f7efd02ef34ecbd552c30764a18637bb677b082bc35049c2cc3b72eae68"
       }
     ]
   },
@@ -642,29 +555,26 @@
     "periodEnd": "2023-12-31",
     "reportingYear": 2023,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "Організаційна структура 2023.pdf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2023/2023-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2023-roku/Організаційна структура 2023.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/orgstructure-20231231/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B8%CC%86%D0%BD%D0%B0%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%202023.pdf",
         "sizeBytes": 75340,
         "checksumSha256": "487445ed85af29b605fb73c78e4b6494a98d0967005237d732d2e235eb7cb23e"
       },
       {
         "id": "main-signature",
         "filename": "Організаційна структура 2023.pdf.p7s",
-        "label": "Кваліфікований електронний підпис до документа (підпис)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2023/2023-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2023-roku/Організаційна структура 2023.pdf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/orgstructure-20231231/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B8%CC%86%D0%BD%D0%B0%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%202023.pdf.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "3df8c21b423239fc07a009f7194c0649e4011fd5278f8f94fefc92e59b027562"
       }
@@ -681,55 +591,86 @@
     "periodEnd": "2023-12-31",
     "reportingYear": 2023,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_2023.docx",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2023/2023-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2023-rik/31106821_2023.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2023/31106821_2023.docx",
         "sizeBytes": 161045,
         "checksumSha256": "7f603213eb4e60f942a9653ee675f3fb469bc458418497a1ab702e039d50e578"
       },
       {
         "id": "main-signature",
         "filename": "31106821_2023.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2023/2023-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2023-rik/31106821_2023.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2023/31106821_2023.docx.p7s",
         "sizeBytes": 2478,
         "checksumSha256": "37eb8864efbf033d73a3d71fbb4b6f0e9055c3bf23c5e4e8d47551bea9e8c070"
       },
       {
         "id": "xml",
         "filename": "ReportNoRNOKPP 2023.xml",
-        "label": "ReportNoRNOKPP 2023.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2023/2023-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2023-rik/ReportNoRNOKPP 2023.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2023/ReportNoRNOKPP%202023.xml",
         "sizeBytes": 2361461,
         "checksumSha256": "d88c92c813d7125617a546ab23c455f74d12831503ff3bb1744898046cac4611"
       },
       {
         "id": "xml-signature",
         "filename": "ReportNoRNOKPP 2023.xml.p7s",
-        "label": "ReportNoRNOKPP 2023.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2023/2023-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2023-rik/ReportNoRNOKPP 2023.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2023/ReportNoRNOKPP%202023.xml.p7s",
         "sizeBytes": 2478,
         "checksumSha256": "d38f397e464520af46f2330a0236097dc163167a95add476136a8a370b16734d"
+      }
+    ]
+  },
+  {
+    "id": "2023-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2023-roku",
+    "title": "Структура власності емітента станом на 31 грудня 2023 року",
+    "displayTitle": "Структура власності станом на 31.12.2023",
+    "type": "Структура власності",
+    "displayType": "Структура власності",
+    "year": 2023,
+    "publishedAt": "2023-12-31",
+    "periodEnd": "2023-12-31",
+    "reportingYear": 2023,
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "Структура власності емітента 2023.pdf",
+        "label": "Основний документ",
+        "format": "PDF",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/2023/2023-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2023-roku/Структура власності емітента 2023.pdf",
+        "sizeBytes": 816549,
+        "checksumSha256": "632ec4206830d6724ded9a0cec85b7da850efcc493ab5f26a0b6bbd85926a49b"
+      },
+      {
+        "id": "main-signature",
+        "filename": "Структура власності емітента 2023.pdf.p7s",
+        "label": "Підпис основного документа",
+        "format": "P7S",
+        "role": "signature",
+        "signsFileId": "main",
+        "publicPath": "/documents/2023/2023-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2023-roku/Структура власності емітента 2023.pdf.p7s",
+        "sizeBytes": 18869,
+        "checksumSha256": "b12f9f7efd02ef34ecbd552c30764a18637bb677b082bc35049c2cc3b72eae68"
       }
     ]
   },
@@ -742,119 +683,50 @@
     "year": 2023,
     "publishedAt": "2023-04-27",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_27.04.2023.doc",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOC",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2023/2023-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/31106821_27.04.2023.doc",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_27.04.2023/31106821_27.04.2023.doc",
         "sizeBytes": 54272,
         "checksumSha256": "b415eab919ee77c70b54e0c31a9aced0243d57f0daf6806f190bb8eb8034f8b9"
       },
       {
         "id": "main-signature",
         "filename": "31106821_27.04.2023.doc.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2023/2023-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/31106821_27.04.2023.doc.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_27.04.2023/31106821_27.04.2023.doc.p7s",
         "sizeBytes": 17593,
         "checksumSha256": "c25549672ef1a26bdac7f6660a4ea596de6104a538db5d4da072bbe77edc4b66"
       },
       {
         "id": "xml",
         "filename": "Report.xml",
-        "label": "Report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2023/2023-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/Report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_27.04.2023/Report.xml",
         "sizeBytes": 6180,
         "checksumSha256": "726085d5cfc1e59b3020870da27e2fa3cc3085a726560dc402ace1fdb4c68849"
       },
       {
         "id": "xml-signature",
         "filename": "Report.xml.p7s",
-        "label": "Report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2023/2023-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii/Report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_27.04.2023/Report.xml.p7s",
         "sizeBytes": 17593,
         "checksumSha256": "83412744150a9803709cf5825d36971a178ee0e652815cbcf33ced90d322e5a5"
-      }
-    ]
-  },
-  {
-    "id": "unknown-perelik-dokumentiv-shcho-maie-nadaty-aktsioner",
-    "title": "Перелік документів, що має надати акціонер",
-    "displayTitle": "Перелік документів, що має надати акціонер",
-    "type": "Інформація для акціонерів",
-    "displayType": "Для акціонерів",
-    "year": 2022,
-    "publishedAt": "2022-12-31",
-    "status": "published",
-    "source": "legacy",
-    "files": [
-      {
-        "id": "main",
-        "filename": "Перелік документів що має надати акціонер.pdf.zip",
-        "label": "Завантажити файл",
-        "format": "ZIP",
-        "role": "main",
-        "signsFileId": null,
-        "publicPath": "/documents/2022/2022-perelik-dokumentiv-shcho-maie-nadaty-aktsioner/Перелік документів що має надати акціонер.pdf.zip",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%9f%d0%b5%d1%80%d0%b5%d0%bb%d1%96%d0%ba%20%d0%b4%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%96%d0%b2%20%d1%89%d0%be%20%d0%bc%d0%b0%d1%94%20%d0%bd%d0%b0%d0%b4%d0%b0%d1%82%d0%b8%20%d0%b0%d0%ba%d1%86%d1%96%d0%be%d0%bd%d0%b5%d1%80.pdf.zip",
-        "sizeBytes": 818909,
-        "checksumSha256": "a5d7459da191a4946f0ee99e4138603bcc8ceb087debc6f8a52d83391902a617"
-      }
-    ]
-  },
-  {
-    "id": "2022-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2022-roku",
-    "title": "Структура власності емітента станом на 31 грудня 2022 року",
-    "displayTitle": "Структура власності станом на 31.12.2022",
-    "type": "Структура власності",
-    "displayType": "Структура власності",
-    "year": 2022,
-    "publishedAt": "2022-12-31",
-    "periodEnd": "2022-12-31",
-    "reportingYear": 2022,
-    "status": "published",
-    "source": "legacy",
-    "files": [
-      {
-        "id": "main",
-        "filename": "Структура власності емітента 2022.pdf",
-        "label": "Завантажити файл",
-        "format": "PDF",
-        "role": "main",
-        "signsFileId": null,
-        "publicPath": "/documents/2022/2022-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2022-roku/Структура власності емітента 2022.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ownership-20221231/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96%20%D0%B5%D0%BC%D1%96%D1%82%D0%B5%D0%BD%D1%82%D0%B0%202022.pdf",
-        "sizeBytes": 816549,
-        "checksumSha256": "8b3609115900513dd36d1e7f34bbed3d0abf916660873fdee2a7548ae20dae61"
-      },
-      {
-        "id": "main-signature",
-        "filename": "Структура власності емітента 2022.pdf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
-        "format": "P7S",
-        "role": "signature",
-        "signsFileId": "main",
-        "publicPath": "/documents/2022/2022-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2022-roku/Структура власності емітента 2022.pdf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ownership-20221231/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96%20%D0%B5%D0%BC%D1%96%D1%82%D0%B5%D0%BD%D1%82%D0%B0%202022.pdf.p7s",
-        "sizeBytes": 18869,
-        "checksumSha256": "db7270ec19ea02ca9aab735dde62ce1b312079ef4d019710136ecc9f35757b93"
       }
     ]
   },
@@ -869,31 +741,51 @@
     "periodEnd": "2022-12-31",
     "reportingYear": 2022,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "Організаційна структура 2022.pdf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2022/2022-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2022-roku/Організаційна структура 2022.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/orgstructure-20221231/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B8%CC%86%D0%BD%D0%B0%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%202022.pdf",
         "sizeBytes": 75338,
         "checksumSha256": "19f09bf8b79dc289dfe2718b518b8bf93c20b1cc3703ad14c238d7ae5aa90eb9"
       },
       {
         "id": "main-signature",
         "filename": "Організаційна структура 2022.pdf.p7s",
-        "label": "Кваліфікований електронний підпис до документа (підпис)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2022/2022-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2022-roku/Організаційна структура 2022.pdf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/orgstructure-20221231/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B8%CC%86%D0%BD%D0%B0%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%202022.pdf.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "e40c8f900d28a3d619a91c42132951353e8802d99897608c3d13a5a4a8722467"
+      }
+    ]
+  },
+  {
+    "id": "2022-perelik-dokumentiv-shcho-maie-nadaty-aktsioner",
+    "title": "Перелік документів, що має надати акціонер",
+    "displayTitle": "Перелік документів, що має надати акціонер",
+    "type": "Інформація для акціонерів",
+    "displayType": "Для акціонерів",
+    "year": 2022,
+    "publishedAt": "2022-12-31",
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "Перелік документів що має надати акціонер.pdf.zip",
+        "label": "Основний документ",
+        "format": "ZIP",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/2022/2022-perelik-dokumentiv-shcho-maie-nadaty-aktsioner/Перелік документів що має надати акціонер.pdf.zip",
+        "sizeBytes": 818909,
+        "checksumSha256": "a5d7459da191a4946f0ee99e4138603bcc8ceb087debc6f8a52d83391902a617"
       }
     ]
   },
@@ -908,55 +800,142 @@
     "periodEnd": "2022-12-31",
     "reportingYear": 2022,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_2022.docx",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2022/2022-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2022-rik/31106821_2022.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2022/31106821_2022.docx",
         "sizeBytes": 158152,
         "checksumSha256": "00d6972ce31a8b3004f47b156fa2086cc84788d0c5643211426450df495fc594"
       },
       {
         "id": "main-signature",
         "filename": "31106821_2022.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2022/2022-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2022-rik/31106821_2022.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2022/31106821_2022.docx.p7s",
         "sizeBytes": 2478,
         "checksumSha256": "2eacec29e513fac77988d696b4c58079ee0bdb7cf9e5d56143b1c8b7ca37433f"
       },
       {
         "id": "xml",
         "filename": "ReportNoRNOKPP 2022.xml",
-        "label": "ReportNoRNOKPP 2022.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2022/2022-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2022-rik/ReportNoRNOKPP 2022.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2022/ReportNoRNOKPP%202022.xml",
         "sizeBytes": 2444430,
         "checksumSha256": "b5334cea979bf8a763d7b90f2c734d1c05b0dd91474668c12da5574d864504cc"
       },
       {
         "id": "xml-signature",
         "filename": "ReportNoRNOKPP 2022.xml.p7s",
-        "label": "ReportNoRNOKPP 2022.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2022/2022-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2022-rik/ReportNoRNOKPP 2022.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2022/ReportNoRNOKPP%202022.xml.p7s",
         "sizeBytes": 2478,
         "checksumSha256": "2ded49c9c639fea2d05d6e30d34566e0738a4d6a2780cbc83c081c808b2d1c6f"
+      }
+    ]
+  },
+  {
+    "id": "2022-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2022-roku",
+    "title": "Структура власності емітента станом на 31 грудня 2022 року",
+    "displayTitle": "Структура власності станом на 31.12.2022",
+    "type": "Структура власності",
+    "displayType": "Структура власності",
+    "year": 2022,
+    "publishedAt": "2022-12-31",
+    "periodEnd": "2022-12-31",
+    "reportingYear": 2022,
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "Структура власності емітента 2022.pdf",
+        "label": "Основний документ",
+        "format": "PDF",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/2022/2022-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2022-roku/Структура власності емітента 2022.pdf",
+        "sizeBytes": 816549,
+        "checksumSha256": "8b3609115900513dd36d1e7f34bbed3d0abf916660873fdee2a7548ae20dae61"
+      },
+      {
+        "id": "main-signature",
+        "filename": "Структура власності емітента 2022.pdf.p7s",
+        "label": "Підпис основного документа",
+        "format": "P7S",
+        "role": "signature",
+        "signsFileId": "main",
+        "publicPath": "/documents/2022/2022-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2022-roku/Структура власності емітента 2022.pdf.p7s",
+        "sizeBytes": 18869,
+        "checksumSha256": "db7270ec19ea02ca9aab735dde62ce1b312079ef4d019710136ecc9f35757b93"
+      }
+    ]
+  },
+  {
+    "id": "2022-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-z-nerukhomistiu-emitenta",
+    "title": "Особлива інформація (інформація про іпотечні цінні папери, сертифікати фонду операцій з нерухомістю) емітента",
+    "displayTitle": "Особлива інформація від 12.12.2022",
+    "type": "Особлива інформація",
+    "displayType": "Особлива інформація",
+    "year": 2022,
+    "publishedAt": "2022-12-12",
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "31106821_12.12.2022_поп правочин.doc",
+        "label": "Основний документ",
+        "format": "DOC",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/2022/2022-osoblyva-informatsiia-emitenta-12-12-2022/31106821_12.12.2022_поп правочин.doc",
+        "sizeBytes": 54272,
+        "checksumSha256": "24cf7f4bc499f13c3246c687a53dfbc237a7e2c7a33ff7fd2f83de98cd2148c1"
+      },
+      {
+        "id": "main-signature",
+        "filename": "31106821_12.12.2022_поп правочин.doc.p7s",
+        "label": "Підпис основного документа",
+        "format": "P7S",
+        "role": "signature",
+        "signsFileId": "main",
+        "publicPath": "/documents/2022/2022-osoblyva-informatsiia-emitenta-12-12-2022/31106821_12.12.2022_поп правочин.doc.p7s",
+        "sizeBytes": 17595,
+        "checksumSha256": "a6f8f8b8ec6231d272852bebb490b3760216d4d2d102b7dc32f8fb75e918d71f"
+      },
+      {
+        "id": "xml",
+        "filename": "Report.xml",
+        "label": "XML-звіт",
+        "format": "XML",
+        "role": "xml",
+        "signsFileId": null,
+        "publicPath": "/documents/2022/2022-osoblyva-informatsiia-emitenta-12-12-2022/Report.xml",
+        "sizeBytes": 6188,
+        "checksumSha256": "350383415db6b63d3e60ff44b4a8cd93606253b963a280e59c0ec841cb4b287a"
+      },
+      {
+        "id": "xml-signature",
+        "filename": "Report.xml.p7s",
+        "label": "Підпис XML-звіту",
+        "format": "P7S",
+        "role": "xml-signature",
+        "signsFileId": "xml",
+        "publicPath": "/documents/2022/2022-osoblyva-informatsiia-emitenta-12-12-2022/Report.xml.p7s",
+        "sizeBytes": 17593,
+        "checksumSha256": "52343b3179f998f996069efac8bc822a023a48ee0bb8b0d5c82f8a196de4beae"
       }
     ]
   },
@@ -971,80 +950,17 @@
     "periodEnd": "2022-12-12",
     "reportingYear": 2022,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "Повідомення про проведення дистанційних річних зборів 12.12.2022.pdf.xml.zip",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "ZIP",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2022/2022-povidomennia-pro-provedennia-dystantsiinykh-richnykh-zboriv-12-12-2022/Повідомення про проведення дистанційних річних зборів 12.12.2022.pdf.xml.zip",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%9f%d0%be%d0%b2%d1%96%d0%b4%d0%be%d0%bc%d0%b5%d0%bd%d0%bd%d1%8f%20%d0%bf%d1%80%d0%be%20%d0%bf%d1%80%d0%be%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%bd%d1%8f%20%d0%b4%d0%b8%d1%81%d1%82%d0%b0%d0%bd%d1%86%d1%96%d0%b9%d0%bd%d0%b8%d1%85%20%d1%80%d1%96%d1%87%d0%bd%d0%b8%d1%85%20%d0%b7%d0%b1%d0%be%d1%80%d1%96%d0%b2%2012.12.2022.pdf.xml.zip",
         "sizeBytes": 278854,
         "checksumSha256": "dcc2d7c557eeea0bbe3e332e482c88ed11e1e06516bdc78ecd2309d456726564"
-      }
-    ]
-  },
-  {
-    "id": "unknown-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2",
-    "title": "Особлива інформація (інформація про іпотечні цінні папери, сертифікати фонду операцій з нерухомістю) емітента",
-    "displayTitle": "Особлива інформація від 12.12.2022",
-    "type": "Особлива інформація",
-    "displayType": "Особлива інформація",
-    "year": 2022,
-    "publishedAt": "2022-12-12",
-    "status": "published",
-    "source": "legacy",
-    "files": [
-      {
-        "id": "main",
-        "filename": "31106821_12.12.2022_поп правочин.doc",
-        "label": "Завантажити файл",
-        "format": "DOC",
-        "role": "main",
-        "signsFileId": null,
-        "publicPath": "/documents/2022/2022-osoblyva-informatsiia-emitenta-12-12-2022/31106821_12.12.2022_поп правочин.doc",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_12.12.2022/31106821_12.12.2022_%d0%bf%d0%be%d0%bf%20%d0%bf%d1%80%d0%b0%d0%b2%d0%be%d1%87%d0%b8%d0%bd.doc",
-        "sizeBytes": 54272,
-        "checksumSha256": "24cf7f4bc499f13c3246c687a53dfbc237a7e2c7a33ff7fd2f83de98cd2148c1"
-      },
-      {
-        "id": "main-signature",
-        "filename": "31106821_12.12.2022_поп правочин.doc.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
-        "format": "P7S",
-        "role": "signature",
-        "signsFileId": "main",
-        "publicPath": "/documents/2022/2022-osoblyva-informatsiia-emitenta-12-12-2022/31106821_12.12.2022_поп правочин.doc.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_12.12.2022/31106821_12.12.2022_%d0%bf%d0%be%d0%bf%20%d0%bf%d1%80%d0%b0%d0%b2%d0%be%d1%87%d0%b8%d0%bd.doc.p7s",
-        "sizeBytes": 17595,
-        "checksumSha256": "a6f8f8b8ec6231d272852bebb490b3760216d4d2d102b7dc32f8fb75e918d71f"
-      },
-      {
-        "id": "xml",
-        "filename": "Report.xml",
-        "label": "Report.xml",
-        "format": "XML",
-        "role": "xml",
-        "signsFileId": null,
-        "publicPath": "/documents/2022/2022-osoblyva-informatsiia-emitenta-12-12-2022/Report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_12.12.2022/Report.xml",
-        "sizeBytes": 6188,
-        "checksumSha256": "350383415db6b63d3e60ff44b4a8cd93606253b963a280e59c0ec841cb4b287a"
-      },
-      {
-        "id": "xml-signature",
-        "filename": "Report.xml.p7s",
-        "label": "Report.xml.p7s",
-        "format": "P7S",
-        "role": "xml-signature",
-        "signsFileId": "xml",
-        "publicPath": "/documents/2022/2022-osoblyva-informatsiia-emitenta-12-12-2022/Report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_12.12.2022/Report.xml.p7s",
-        "sizeBytes": 17593,
-        "checksumSha256": "52343b3179f998f996069efac8bc822a023a48ee0bb8b0d5c82f8a196de4beae"
       }
     ]
   },
@@ -1059,58 +975,17 @@
     "periodEnd": "2022-11-01",
     "reportingYear": 2022,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "Інформація про загальну кількість акцій та голосуючих акцій станом на 01.11. 2022 року.pdf.zip",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "ZIP",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2022/2022-informatsiia-pro-zahalnu-kilkist-aktsii-ta-holosuiuchykh-aktsii-stanom-na-01-11-2022-roku/Інформація про загальну кількість акцій та голосуючих акцій станом на 01.11. 2022 року.pdf.zip",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%86%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d1%96%d1%8f%20%d0%bf%d1%80%d0%be%20%d0%b7%d0%b0%d0%b3%d0%b0%d0%bb%d1%8c%d0%bd%d1%83%20%d0%ba%d1%96%d0%bb%d1%8c%d0%ba%d1%96%d1%81%d1%82%d1%8c%20%d0%b0%d0%ba%d1%86%d1%96%d0%b9%20%d1%82%d0%b0%20%d0%b3%d0%be%d0%bb%d0%be%d1%81%d1%83%d1%8e%d1%87%d0%b8%d1%85%20%d0%b0%d0%ba%d1%86%d1%96%d0%b9%20%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%bc%20%d0%bd%d0%b0%2001.11.%202022%20%d1%80%d0%be%d0%ba%d1%83.pdf.zip",
         "sizeBytes": 767588,
         "checksumSha256": "616da2d0233c9b994a625a2960d1d99d36644d6efa67614d4b62cf61b1124b76"
-      }
-    ]
-  },
-  {
-    "id": "2021-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2021-roku",
-    "title": "Структура власності емітента станом на 31 грудня 2021 року",
-    "displayTitle": "Структура власності станом на 31.12.2021",
-    "type": "Структура власності",
-    "displayType": "Структура власності",
-    "year": 2021,
-    "publishedAt": "2021-12-31",
-    "periodEnd": "2021-12-31",
-    "reportingYear": 2021,
-    "status": "published",
-    "source": "legacy",
-    "files": [
-      {
-        "id": "main",
-        "filename": "Структура власності емітента 2021.pdf",
-        "label": "Завантажити файл",
-        "format": "PDF",
-        "role": "main",
-        "signsFileId": null,
-        "publicPath": "/documents/2021/2021-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2021-roku/Структура власності емітента 2021.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ownership-20211231/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96%20%D0%B5%D0%BC%D1%96%D1%82%D0%B5%D0%BD%D1%82%D0%B0%202021.pdf",
-        "sizeBytes": 816549,
-        "checksumSha256": "ed983b7a6d2d5141c9015c958cdf37ab96e230df2e93530465c0dd496759f0fa"
-      },
-      {
-        "id": "main-signature",
-        "filename": "Структура власності емітента 2021.pdf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
-        "format": "P7S",
-        "role": "signature",
-        "signsFileId": "main",
-        "publicPath": "/documents/2021/2021-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2021-roku/Структура власності емітента 2021.pdf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ownership-20211231/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96%20%D0%B5%D0%BC%D1%96%D1%82%D0%B5%D0%BD%D1%82%D0%B0%202021.pdf.p7s",
-        "sizeBytes": 18869,
-        "checksumSha256": "cbf5a2cb6910f840c6b15db69155975784e82d3702f851efcfdbbd87cb240f1e"
       }
     ]
   },
@@ -1125,29 +1000,26 @@
     "periodEnd": "2021-12-31",
     "reportingYear": 2021,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "Організаційна структура 2021.pdf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2021/2021-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2021-roku/Організаційна структура 2021.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/orgstructure-20211231/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B8%CC%86%D0%BD%D0%B0%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%202021.pdf",
         "sizeBytes": 75334,
         "checksumSha256": "616cc71e3871b1e14887eb759d92a681738efef0e6e5a0f04662eef03588785e"
       },
       {
         "id": "main-signature",
         "filename": "Організаційна структура 2021.pdf.p7s",
-        "label": "Кваліфікований електронний підпис до документа (підпис)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2021/2021-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2021-roku/Організаційна структура 2021.pdf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/orgstructure-20211231/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B8%CC%86%D0%BD%D0%B0%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%202021.pdf.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "3dee1e656af901f4f9565c8793a785e3cfabaa5b96f49949c63db6e5fee7199d"
       }
@@ -1164,55 +1036,142 @@
     "periodEnd": "2021-12-31",
     "reportingYear": 2021,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_2021.docx",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2021/2021-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2021-rik/31106821_2021.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2021/31106821_2021.docx",
         "sizeBytes": 162404,
         "checksumSha256": "f4300e8f536810723f011803ca274a2f5356d772c9879c7e8b296a4c93a3ac4e"
       },
       {
         "id": "main-signature",
         "filename": "31106821_2021.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2021/2021-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2021-rik/31106821_2021.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2021/31106821_2021.docx.p7s",
         "sizeBytes": 2478,
         "checksumSha256": "5987f01d7b86800be7a94bdd722ff0a75f2068313441e492024bb8d7180105f4"
       },
       {
         "id": "xml",
         "filename": "ReportNoRNOKPP 2021.xml",
-        "label": "ReportNoRNOKPP 2021.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2021/2021-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2021-rik/ReportNoRNOKPP 2021.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2021/ReportNoRNOKPP%202021.xml",
         "sizeBytes": 2361401,
         "checksumSha256": "e424b71d44213e62c696476436a0aa6959bee8c26f8d65ce589a459cde588bb3"
       },
       {
         "id": "xml-signature",
         "filename": "ReportNoRNOKPP 2021.xml.p7s",
-        "label": "ReportNoRNOKPP 2021.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2021/2021-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2021-rik/ReportNoRNOKPP 2021.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/report-2021/ReportNoRNOKPP%202021.xml.p7s",
         "sizeBytes": 2478,
         "checksumSha256": "b0c649e84398d04b0f9eb90b3c188501201e4bddc39e4d5e6f60f17b6b6ddb73"
+      }
+    ]
+  },
+  {
+    "id": "2021-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2021-roku",
+    "title": "Структура власності емітента станом на 31 грудня 2021 року",
+    "displayTitle": "Структура власності станом на 31.12.2021",
+    "type": "Структура власності",
+    "displayType": "Структура власності",
+    "year": 2021,
+    "publishedAt": "2021-12-31",
+    "periodEnd": "2021-12-31",
+    "reportingYear": 2021,
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "Структура власності емітента 2021.pdf",
+        "label": "Основний документ",
+        "format": "PDF",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/2021/2021-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2021-roku/Структура власності емітента 2021.pdf",
+        "sizeBytes": 816549,
+        "checksumSha256": "ed983b7a6d2d5141c9015c958cdf37ab96e230df2e93530465c0dd496759f0fa"
+      },
+      {
+        "id": "main-signature",
+        "filename": "Структура власності емітента 2021.pdf.p7s",
+        "label": "Підпис основного документа",
+        "format": "P7S",
+        "role": "signature",
+        "signsFileId": "main",
+        "publicPath": "/documents/2021/2021-struktura-vlasnosti-emitenta-stanom-na-31-hrudnia-2021-roku/Структура власності емітента 2021.pdf.p7s",
+        "sizeBytes": 18869,
+        "checksumSha256": "cbf5a2cb6910f840c6b15db69155975784e82d3702f851efcfdbbd87cb240f1e"
+      }
+    ]
+  },
+  {
+    "id": "2021-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-z-nerukhomistiu-emitenta",
+    "title": "Особлива інформація (інформація про іпотечні цінні папери, сертифікати фонду операцій з нерухомістю) емітента",
+    "displayTitle": "Особлива інформація від 28.04.2021",
+    "type": "Особлива інформація",
+    "displayType": "Особлива інформація",
+    "year": 2021,
+    "publishedAt": "2021-04-28",
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "31106821_28.04.2021_сайт.rtf",
+        "label": "Основний документ",
+        "format": "RTF",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/2021/2021-osoblyva-informatsiia-emitenta-28-04-2021/31106821_28.04.2021_сайт.rtf",
+        "sizeBytes": 46119,
+        "checksumSha256": "7d0ac24c3af5d404d11797fae35bc466948e47b0af36d9a3485b6949c2448147"
+      },
+      {
+        "id": "main-signature",
+        "filename": "31106821_28.04.2021_сайт.rtf.p7s",
+        "label": "Підпис основного документа",
+        "format": "P7S",
+        "role": "signature",
+        "signsFileId": "main",
+        "publicPath": "/documents/2021/2021-osoblyva-informatsiia-emitenta-28-04-2021/31106821_28.04.2021_сайт.rtf.p7s",
+        "sizeBytes": 8499,
+        "checksumSha256": "1dbf8b984d523a9c38458cea0daf9f04a48d293f0b7ef3dfafd8511e806ecf55"
+      },
+      {
+        "id": "xml",
+        "filename": "Report.xml",
+        "label": "XML-звіт",
+        "format": "XML",
+        "role": "xml",
+        "signsFileId": null,
+        "publicPath": "/documents/2021/2021-osoblyva-informatsiia-emitenta-28-04-2021/Report.xml",
+        "sizeBytes": 3576,
+        "checksumSha256": "deb0037b38fefffc63174f7f88c89626d5caba3af97c3c1aa4f317daf818130b"
+      },
+      {
+        "id": "xml-signature",
+        "filename": "Report.xml.p7s",
+        "label": "Підпис XML-звіту",
+        "format": "P7S",
+        "role": "xml-signature",
+        "signsFileId": "xml",
+        "publicPath": "/documents/2021/2021-osoblyva-informatsiia-emitenta-28-04-2021/Report.xml.p7s",
+        "sizeBytes": 8500,
+        "checksumSha256": "7be3c70b6fee53422355fcc1ac4c14a3dc894af3174516979fa34a8f41a3d507"
       }
     ]
   },
@@ -1225,92 +1184,28 @@
     "year": 2021,
     "publishedAt": "2021-04-28",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "Для размещения на сайте АТИ 21.docx",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2021/2021-povidomlennia-pro-provedennia-zahalnykh-zboriv-28-04-2021/Для размещения на сайте АТИ 21.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%94%d0%bb%d1%8f%20%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%89%d0%b5%d0%bd%d0%b8%d1%8f%20%d0%bd%d0%b0%20%d1%81%d0%b0%d0%b9%d1%82%d0%b5%20%d0%90%d0%a2%d0%98%2021.docx",
         "sizeBytes": 21622,
         "checksumSha256": "c8cab25c2d3a884d49eae8ad70727235ef5a46380eba1c4224cf738eaedc85e9"
       },
       {
         "id": "main-signature",
         "filename": "Для размещения на сайте АТИ 21.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2021/2021-povidomlennia-pro-provedennia-zahalnykh-zboriv-28-04-2021/Для размещения на сайте АТИ 21.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%94%d0%bb%d1%8f%20%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%89%d0%b5%d0%bd%d0%b8%d1%8f%20%d0%bd%d0%b0%20%d1%81%d0%b0%d0%b9%d1%82%d0%b5%20%d0%90%d0%a2%d0%98%2021.docx.p7s",
         "sizeBytes": 8501,
         "checksumSha256": "68f1bca54f70f71de197b8dc35608999e65f81ec172b6541f1a7e2439b38ff50"
-      }
-    ]
-  },
-  {
-    "id": "unknown-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii",
-    "title": "Особлива інформація (інформація про іпотечні цінні папери, сертифікати фонду операцій з нерухомістю) емітента",
-    "displayTitle": "Особлива інформація від 28.04.2021",
-    "type": "Особлива інформація",
-    "displayType": "Особлива інформація",
-    "year": 2021,
-    "publishedAt": "2021-04-28",
-    "status": "published",
-    "source": "legacy",
-    "files": [
-      {
-        "id": "main",
-        "filename": "31106821_28.04.2021_сайт.rtf",
-        "label": "Завантажити файл",
-        "format": "RTF",
-        "role": "main",
-        "signsFileId": null,
-        "publicPath": "/documents/2021/2021-osoblyva-informatsiia-emitenta-28-04-2021/31106821_28.04.2021_сайт.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_28.04.2021/31106821_28.04.2021_%d1%81%d0%b0%d0%b9%d1%82.rtf",
-        "sizeBytes": 46119,
-        "checksumSha256": "7d0ac24c3af5d404d11797fae35bc466948e47b0af36d9a3485b6949c2448147"
-      },
-      {
-        "id": "main-signature",
-        "filename": "31106821_28.04.2021_сайт.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
-        "format": "P7S",
-        "role": "signature",
-        "signsFileId": "main",
-        "publicPath": "/documents/2021/2021-osoblyva-informatsiia-emitenta-28-04-2021/31106821_28.04.2021_сайт.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_28.04.2021/31106821_28.04.2021_%d1%81%d0%b0%d0%b9%d1%82.rtf.p7s",
-        "sizeBytes": 8499,
-        "checksumSha256": "1dbf8b984d523a9c38458cea0daf9f04a48d293f0b7ef3dfafd8511e806ecf55"
-      },
-      {
-        "id": "xml",
-        "filename": "Report.xml",
-        "label": "Report.xml",
-        "format": "XML",
-        "role": "xml",
-        "signsFileId": null,
-        "publicPath": "/documents/2021/2021-osoblyva-informatsiia-emitenta-28-04-2021/Report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_28.04.2021/Report.xml",
-        "sizeBytes": 3576,
-        "checksumSha256": "deb0037b38fefffc63174f7f88c89626d5caba3af97c3c1aa4f317daf818130b"
-      },
-      {
-        "id": "xml-signature",
-        "filename": "Report.xml.p7s",
-        "label": "Report.xml.p7s",
-        "format": "P7S",
-        "role": "xml-signature",
-        "signsFileId": "xml",
-        "publicPath": "/documents/2021/2021-osoblyva-informatsiia-emitenta-28-04-2021/Report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_28.04.2021/Report.xml.p7s",
-        "sizeBytes": 8500,
-        "checksumSha256": "7be3c70b6fee53422355fcc1ac4c14a3dc894af3174516979fa34a8f41a3d507"
       }
     ]
   },
@@ -1325,53 +1220,48 @@
     "periodEnd": "2020-12-31",
     "reportingYear": 2020,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_2020_сайт.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2020-rik/31106821_2020_сайт.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_2020/31106821_2020_%d1%81%d0%b0%d0%b9%d1%82.rtf",
         "sizeBytes": 1620033,
         "checksumSha256": "d84477d2546e643f1e3487c73f49886115b296f95084d9c7cbebb6bda674d4db"
       },
       {
         "id": "main-signature",
         "filename": "31106821_2020_сайт.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2020-rik/31106821_2020_сайт.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_2020/31106821_2020_%d1%81%d0%b0%d0%b9%d1%82.rtf.p7s",
         "sizeBytes": 8501,
         "checksumSha256": "1e752233179a0c6d4367c48a819180408e129dd410f5fd65f0a70e62d48b01f4"
       },
       {
         "id": "xml",
         "filename": "Report.xml",
-        "label": "Report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2020-rik/Report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_2020/Report.xml",
         "sizeBytes": 104498,
         "checksumSha256": "f1071d42cc33d5b6954d321ef2b1eeb7e1623ea544d0fd5abb5bc002cddda922"
       },
       {
         "id": "xml-signature",
         "filename": "Report.xml.p7s",
-        "label": "Report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2020-rik/Report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_2020/Report.xml.p7s",
         "sizeBytes": 8499,
         "checksumSha256": "66705f7b4717255e012bf95e877c3e8dd8a2442e6d27d5065cf217fa0beeda9d"
       }
@@ -1386,53 +1276,48 @@
     "year": 2020,
     "publishedAt": "2020-04-25",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_24.04.2020_сайт.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2020/2020-vidomosti-pro-pryiniattia-rishennia-pro-poperednie-nadannia-zhody-na-vchynennia-znachnykh-/31106821_24.04.2020_сайт.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/info-pre-changes-20200425/31106821_24.04.2020_%d1%81%d0%b0%d0%b9%d1%82.rtf",
         "sizeBytes": 45012,
         "checksumSha256": "9c5b53f49316f0eb71e38eaff38d27160e54476cbe86aded8f1b0c02da542892"
       },
       {
         "id": "main-signature",
         "filename": "31106821_24.04.2020_сайт.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2020/2020-vidomosti-pro-pryiniattia-rishennia-pro-poperednie-nadannia-zhody-na-vchynennia-znachnykh-/31106821_24.04.2020_сайт.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/info-pre-changes-20200425/31106821_24.04.2020_%d1%81%d0%b0%d0%b9%d1%82.rtf.p7s",
         "sizeBytes": 8485,
         "checksumSha256": "cdb05067461da554563b05f3d777e92639bd7700da29726c3ca9c5375bdc9ab1"
       },
       {
         "id": "xml",
         "filename": "Report.xml",
-        "label": "Report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2020/2020-vidomosti-pro-pryiniattia-rishennia-pro-poperednie-nadannia-zhody-na-vchynennia-znachnykh-/Report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/info-pre-changes-20200425/Report.xml",
         "sizeBytes": 3545,
         "checksumSha256": "baeb6e12dab5398716d08f50b6f40e9e6a1f1f3f37a232bc099933472d147d6f"
       },
       {
         "id": "xml-signature",
         "filename": "Report.xml.p7s",
-        "label": "Report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2020/2020-vidomosti-pro-pryiniattia-rishennia-pro-poperednie-nadannia-zhody-na-vchynennia-znachnykh-/Report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/info-pre-changes-20200425/Report.xml.p7s",
         "sizeBytes": 8485,
         "checksumSha256": "889b1529d3da613834c1f0f7f33d8278d7498d50eb0497cbfa602917ce60883e"
       }
@@ -1447,53 +1332,48 @@
     "year": 2020,
     "publishedAt": "2020-04-25",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_24.04.2020_сайт.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2020/2020-vidomosti-pro-zminu-skladu-posadovykh-osib-emitenta-25-04-2020/31106821_24.04.2020_сайт.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/info-changes-20200425/31106821_24.04.2020_%d1%81%d0%b0%d0%b9%d1%82.rtf",
         "sizeBytes": 81647,
         "checksumSha256": "af748c47cbe395c230420f504ae3940469df1a71d3a4c33faee17fe20d512d88"
       },
       {
         "id": "main-signature",
         "filename": "31106821_24.04.2020_сайт.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2020/2020-vidomosti-pro-zminu-skladu-posadovykh-osib-emitenta-25-04-2020/31106821_24.04.2020_сайт.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/info-changes-20200425/31106821_24.04.2020_%d1%81%d0%b0%d0%b9%d1%82.rtf.p7s",
         "sizeBytes": 8483,
         "checksumSha256": "a2803c044f2918b47a9e844488167d50af737bab094d4f0fbf36193ea47582c4"
       },
       {
         "id": "xml",
         "filename": "Report.xml",
-        "label": "Report.xml",
+        "label": "XML-звіт",
         "format": "XML",
         "role": "xml",
         "signsFileId": null,
         "publicPath": "/documents/2020/2020-vidomosti-pro-zminu-skladu-posadovykh-osib-emitenta-25-04-2020/Report.xml",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/info-changes-20200425/Report.xml",
         "sizeBytes": 6398,
         "checksumSha256": "96eb8e093083748d86f0b58d4140caa783bdbc355400a342f081f3e94b25f72b"
       },
       {
         "id": "xml-signature",
         "filename": "Report.xml.p7s",
-        "label": "Report.xml.p7s",
+        "label": "Підпис XML-звіту",
         "format": "P7S",
         "role": "xml-signature",
         "signsFileId": "xml",
         "publicPath": "/documents/2020/2020-vidomosti-pro-zminu-skladu-posadovykh-osib-emitenta-25-04-2020/Report.xml.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/info-changes-20200425/Report.xml.p7s",
         "sizeBytes": 8483,
         "checksumSha256": "7be6a6a8d512982ce2371b2fc3550546af673f1e235fa179ce7b979fc2d5ff75"
       }
@@ -1508,29 +1388,26 @@
     "year": 2020,
     "publishedAt": "2020-04-24",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "Для размещения на сайте АТИ 20.docx",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2020/2020-zahalni-zbory-aktsioneriv-24-04-2020/Для размещения на сайте АТИ 20.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%94%d0%bb%d1%8f%20%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%89%d0%b5%d0%bd%d0%b8%d1%8f%20%d0%bd%d0%b0%20%d1%81%d0%b0%d0%b9%d1%82%d0%b5%20%d0%90%d0%a2%d0%98%2020.docx",
         "sizeBytes": 21510,
         "checksumSha256": "2397993d6d42b04fa0ec45bfd8596e96bbd330f9d785764680c7f47de857f42f"
       },
       {
         "id": "main-signature",
         "filename": "Для размещения на сайте АТИ 20.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2020/2020-zahalni-zbory-aktsioneriv-24-04-2020/Для размещения на сайте АТИ 20.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%94%d0%bb%d1%8f%20%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%89%d0%b5%d0%bd%d0%b8%d1%8f%20%d0%bd%d0%b0%20%d1%81%d0%b0%d0%b9%d1%82%d0%b5%20%d0%90%d0%a2%d0%98%2020.docx.p7s",
         "sizeBytes": 8485,
         "checksumSha256": "ad8a4778fa46453ce7f220ac3cfe963ed1d80dc27de4c9c9e6aa91184170e0e4"
       }
@@ -1547,29 +1424,26 @@
     "periodEnd": "2020-04-23",
     "reportingYear": 2020,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "АТИ_2019_сайт.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2019-rik-23-04-2020/АТИ_2019_сайт.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_2019_%d1%81%d0%b0%d0%b9%d1%82.rtf",
         "sizeBytes": 1777261,
         "checksumSha256": "3004b1ad72fab6e48dee2833556f13ab0a37163a97f97ecccfdcb202172ae3fa"
       },
       {
         "id": "main-signature",
         "filename": "АТИ_2019_сайт.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2019-rik-23-04-2020/АТИ_2019_сайт.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_2019_%d1%81%d0%b0%d0%b9%d1%82.rtf.p7s",
         "sizeBytes": 8485,
         "checksumSha256": "249fa40257c0ff31978828df354ca557e3eaf4ee0f28f4cd9ced11e2cc56b6aa"
       }
@@ -1584,29 +1458,26 @@
     "year": 2019,
     "publishedAt": "2019-04-25",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "АТИ_Попередня_згода_сайт.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2019/2019-osoblyva-informatsiia-emitenta-vid-25-04-2019-poperednie-nadannia-zhody-na-vchynennia-znac/АТИ_Попередня_згода_сайт.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_%d0%9f%d0%be%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%bd%d1%8f_%d0%b7%d0%b3%d0%be%d0%b4%d0%b0_%d1%81%d0%b0%d0%b9%d1%82.rtf",
         "sizeBytes": 43634,
         "checksumSha256": "56ecb117e484552eebb5db346b8cc49db7b06adbe85358a4b505f1263e66717e"
       },
       {
         "id": "main-signature",
         "filename": "АТИ_Попередня_згода_сайт.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2019/2019-osoblyva-informatsiia-emitenta-vid-25-04-2019-poperednie-nadannia-zhody-na-vchynennia-znac/АТИ_Попередня_згода_сайт.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_%d0%9f%d0%be%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%bd%d1%8f_%d0%b7%d0%b3%d0%be%d0%b4%d0%b0_%d1%81%d0%b0%d0%b9%d1%82.rtf.p7s",
         "sizeBytes": 2422,
         "checksumSha256": "fc7d0f8a6acdabe8850a73d8a0ff90c04a04c1e79e7aed87acf4380976ceeb88"
       }
@@ -1621,29 +1492,26 @@
     "year": 2019,
     "publishedAt": "2019-04-25",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "АТИ_посадови_сайт.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2019/2019-osoblyva-informatsiia-emitenta-vid-25-04-2019-vidomosti-pro-zminu-skladu-posadovykh-osib-e/АТИ_посадови_сайт.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_%d0%bf%d0%be%d1%81%d0%b0%d0%b4%d0%be%d0%b2%d0%b8_%d1%81%d0%b0%d0%b9%d1%82.rtf",
         "sizeBytes": 78854,
         "checksumSha256": "542bb96ae91b27cc7612547336b669ab3311cadac5cfc93df8dff3ec74e54003"
       },
       {
         "id": "main-signature",
         "filename": "АТИ_посадови_сайт.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2019/2019-osoblyva-informatsiia-emitenta-vid-25-04-2019-vidomosti-pro-zminu-skladu-posadovykh-osib-e/АТИ_посадови_сайт.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_%d0%bf%d0%be%d1%81%d0%b0%d0%b4%d0%be%d0%b2%d0%b8_%d1%81%d0%b0%d0%b9%d1%82.rtf.p7s",
         "sizeBytes": 2422,
         "checksumSha256": "30ff7cee3b4c2187bbd12e19fb26304e281c6f61d6b62574ae1f01915df882cf"
       }
@@ -1658,29 +1526,26 @@
     "year": 2019,
     "publishedAt": "2019-04-24",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "АТИ_Збори_24042019.docx",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2019/2019-poriadok-dennyi-zahalnykh-zboriv-aktsioneriv-24-04-2019/АТИ_Збори_24042019.docx",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_%d0%97%d0%b1%d0%be%d1%80%d0%b8_24042019.docx",
         "sizeBytes": 22497,
         "checksumSha256": "e7b35805ab74f2c00eb110be59cd24adae4ed2c9fa9b46e0f1d8fa1dd4bdf545"
       },
       {
         "id": "main-signature",
         "filename": "АТИ_Збори_24042019.docx.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2019/2019-poriadok-dennyi-zahalnykh-zboriv-aktsioneriv-24-04-2019/АТИ_Збори_24042019.docx.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_%d0%97%d0%b1%d0%be%d1%80%d0%b8_24042019.docx.p7s",
         "sizeBytes": 2487,
         "checksumSha256": "63cfa5a7c79dbae79c29e9d30565fc4459ac3fad4109bd54ee5a570063ce3082"
       }
@@ -1697,29 +1562,26 @@
     "periodEnd": "2019-04-23",
     "reportingYear": 2019,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "АТИ_2018_сайт.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2019/2019-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2018-rik-23-04-2019/АТИ_2018_сайт.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_2018_%d1%81%d0%b0%d0%b9%d1%82.rtf",
         "sizeBytes": 1351640,
         "checksumSha256": "24c2cfbd89411668a5d5fb55f4bdadb0751cacabb1f893f11fc2c27ffb63be60"
       },
       {
         "id": "main-signature",
         "filename": "АТИ_2018_сайт.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2019/2019-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2018-rik-23-04-2019/АТИ_2018_сайт.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/%d0%90%d0%a2%d0%98_2018_%d1%81%d0%b0%d0%b9%d1%82.rtf.p7s",
         "sizeBytes": 2423,
         "checksumSha256": "3409abdc5d0eeaba451acdbe32cedf60d1cc8201327eedfb0f7d9d22e4df14c9"
       }
@@ -1734,17 +1596,15 @@
     "year": 2018,
     "publishedAt": "2018-04-27",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "information-ATI-2018.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2018/2018-poriadok-dennyi-zahalnykh-zboriv-aktsioneriv-27-04-2018/information-ATI-2018.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/information-ATI-2018.pdf",
         "sizeBytes": 455285,
         "checksumSha256": "8e8fe6da5a84e8b967bf00902781a2a5bcfc6c595b30ed8df9c3cf5ede87b26c"
       }
@@ -1759,44 +1619,17 @@
     "year": 2018,
     "publishedAt": "2018-04-18",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "ATI_protocol_170419.pdf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2018/2018-protokol-zasidannia-nahliadovoi-rady-18-04-2018/ATI_protocol_170419.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ATI_protocol_170419.pdf",
         "sizeBytes": 49376,
         "checksumSha256": "109a0149a907cc80600851755f15c40637093b5fca9dc53b36c32ed3f0485080"
-      }
-    ]
-  },
-  {
-    "id": "unknown-ynformatsyia-dlia-aktsyonerov",
-    "title": "Информация для акционеров",
-    "displayTitle": "Информация для акционеров",
-    "type": "Інформація емітента",
-    "displayType": "Інформація емітента",
-    "year": 2017,
-    "publishedAt": "2017-12-31",
-    "status": "published",
-    "source": "legacy",
-    "files": [
-      {
-        "id": "main",
-        "filename": "ati_agenda_2017_04_28.pdf",
-        "label": "Скачать файл",
-        "format": "PDF",
-        "role": "main",
-        "signsFileId": null,
-        "publicPath": "/documents/2017/2017-informatsiia-dlia-aktsioneriv/ati_agenda_2017_04_28.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ati_agenda_2017_04_28.pdf",
-        "sizeBytes": 79323,
-        "checksumSha256": "8920753201168683f105063a2957add8dfbc72a36405d1153ff19c2cf803f0d8"
       }
     ]
   },
@@ -1811,19 +1644,40 @@
     "periodEnd": "2017-12-31",
     "reportingYear": 2017,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "ati_information_2017.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2017/2017-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2017-rik/ati_information_2017.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ati_information_2017.pdf",
         "sizeBytes": 492187,
         "checksumSha256": "3c0ba19c6d1e61fbebdd57e6da68591e73521825bea8e4a95889b4121e4b1889"
+      }
+    ]
+  },
+  {
+    "id": "2017-ynformatsyia-dlia-aktsyonerov",
+    "title": "Информация для акционеров",
+    "displayTitle": "Информация для акционеров",
+    "type": "Інформація емітента",
+    "displayType": "Інформація емітента",
+    "year": 2017,
+    "publishedAt": "2017-12-31",
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "ati_agenda_2017_04_28.pdf",
+        "label": "Основний документ",
+        "format": "PDF",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/2017/2017-informatsiia-dlia-aktsioneriv/ati_agenda_2017_04_28.pdf",
+        "sizeBytes": 79323,
+        "checksumSha256": "8920753201168683f105063a2957add8dfbc72a36405d1153ff19c2cf803f0d8"
       }
     ]
   },
@@ -1836,17 +1690,15 @@
     "year": 2017,
     "publishedAt": "2017-11-30",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_30.11.2017.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2017/2017-osoblyva-informatsiia-emitenta-za-30-11-2017-roku/31106821_30.11.2017.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_30.11.2017.pdf",
         "sizeBytes": 240002,
         "checksumSha256": "f111df4a896ef17f298e83a88f7836c5ef9598c43dec04f8c1efd1a03690d378"
       }
@@ -1861,17 +1713,15 @@
     "year": 2017,
     "publishedAt": "2017-11-29",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_29.11.2017.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2017/2017-osoblyva-informatsiia-emitenta-za-29-11-2017-roku/31106821_29.11.2017.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_29.11.2017.pdf",
         "sizeBytes": 239765,
         "checksumSha256": "f8db07a43479f22cec14e8c22931908a497cc5df02447be9e5255e77a9225511"
       }
@@ -1886,29 +1736,26 @@
     "year": 2017,
     "publishedAt": "2017-04-19",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_17.04.2019_сайт.rtf",
-        "label": "Завантажити файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2017/2017-osoblyva-informatsiia-emitenta-vid-19-04-2017-roku/31106821_17.04.2019_сайт.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_17.04.2019_%d1%81%d0%b0%d0%b9%d1%82.rtf",
         "sizeBytes": 44177,
         "checksumSha256": "91eae050d93b8cba6d7ea9426fc0d7dbec7616ad00da0d2ea06b68be2f6953c8"
       },
       {
         "id": "main-signature",
         "filename": "31106821_17.04.2019_сайт.rtf.p7s",
-        "label": "Кваліфікований електронний підпис на документі (печатка)",
+        "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
         "publicPath": "/documents/2017/2017-osoblyva-informatsiia-emitenta-vid-19-04-2017-roku/31106821_17.04.2019_сайт.rtf.p7s",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_17.04.2019_%d1%81%d0%b0%d0%b9%d1%82.rtf.p7s",
         "sizeBytes": 2423,
         "checksumSha256": "c25630a2a96ff6b1c675857fe42b4f565459da81679dade71d2c5d89cda708da"
       }
@@ -1923,17 +1770,15 @@
     "year": 2016,
     "publishedAt": "2016-12-31",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "ati_agenda_2016_04_25.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2016/2016-povestka-dnia-obshcheho-sobranyia-aktsyonerov-25-aprelia-2016-hoda/ati_agenda_2016_04_25.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ati_agenda_2016_04_25.pdf",
         "sizeBytes": 61871,
         "checksumSha256": "00f1f91376836f6b2cb36e7f1be82be8df46db1befec59d0a731a045db80d6ea"
       }
@@ -1950,17 +1795,15 @@
     "periodEnd": "2016-12-31",
     "reportingYear": 2016,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_2016.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2016/2016-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2016-rik/31106821_2016.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_2016.pdf",
         "sizeBytes": 512191,
         "checksumSha256": "c9f99f55d62e0fe34e7384fbb82f91067f8d7050398484f0fcf0549519a751bd"
       }
@@ -1975,17 +1818,15 @@
     "year": 2016,
     "publishedAt": "2016-04-26",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "ati_special_info_26-04-2016.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2016/2016-osobaia-ynformatsyia-emytenta-za-26-04-2016/ati_special_info_26-04-2016.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ati_special_info_26-04-2016.pdf",
         "sizeBytes": 128445,
         "checksumSha256": "39b59324ea854f8f685acb4454e02e514633ed194cc05390b94cc20bf0d861f9"
       }
@@ -1999,18 +1840,18 @@
     "displayType": "Річна інформація",
     "year": 2015,
     "publishedAt": "2015-12-31",
+    "periodEnd": "2015-12-31",
+    "reportingYear": 2015,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "ati_report_2015.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2015/2015-hodovaia-ynformatsyia-emytenta-tsennykh-bumah-za-2015-hod/ati_report_2015.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ati_report_2015.pdf",
         "sizeBytes": 370449,
         "checksumSha256": "43ce52df1eb726467e6a662e2d64f01f342bbf0b3ab258a539b465f0cff195e0"
       }
@@ -2025,17 +1866,15 @@
     "year": 2015,
     "publishedAt": "2015-04-21",
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "ati_special_info_21-04-2015.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2015/2015-osobaia-ynformatsyia-emytenta-za-21-04-2015/ati_special_info_21-04-2015.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ati_special_info_21-04-2015.pdf",
         "sizeBytes": 244892,
         "checksumSha256": "c5915c7d31c10eca2f0933816810e8a04810f4a4608195f11b7d337082e59ee6"
       }
@@ -2049,18 +1888,18 @@
     "displayType": "Річна інформація",
     "year": 2014,
     "publishedAt": "2014-12-31",
+    "periodEnd": "2014-12-31",
+    "reportingYear": 2014,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "ati_report_2014.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2014/2014-hodovaia-ynformatsyia-emytenta-tsennykh-bumah-za-2014-hod/ati_report_2014.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ati_report_2014.pdf",
         "sizeBytes": 394915,
         "checksumSha256": "1f0cf2df4ff9d93155663ca3eb737e1cbd2345beaa12eec6a11217eeb87b798c"
       }
@@ -2074,18 +1913,18 @@
     "displayType": "Річна інформація",
     "year": 2013,
     "publishedAt": "2013-12-31",
+    "periodEnd": "2013-12-31",
+    "reportingYear": 2013,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "ati_report_2013.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2013/2013-hodovaia-ynformatsyia-emytenta-tsennykh-bumah-za-2013-hod/ati_report_2013.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ati_report_2013.pdf",
         "sizeBytes": 400184,
         "checksumSha256": "7fc9ac2ce9b63aca9b8a5880ec5e26f84b676feaa9e41337880a3d20bf64b2e3"
       }
@@ -2099,18 +1938,18 @@
     "displayType": "Річна інформація",
     "year": 2012,
     "publishedAt": "2012-12-31",
+    "periodEnd": "2012-12-31",
+    "reportingYear": 2012,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "ATI_Report_2012.pdf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2012/2012-hodovaia-ynformatsyia-emytenta-tsennykh-bumah-za-2012-hod/ATI_Report_2012.pdf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/ATI_Report_2012.pdf",
         "sizeBytes": 562348,
         "checksumSha256": "975a22950fdd4ce0633be545cd060f678a0415041a1309b86be557cd591b89f0"
       }
@@ -2124,18 +1963,18 @@
     "displayType": "Річна інформація",
     "year": 2011,
     "publishedAt": "2011-12-31",
+    "periodEnd": "2011-12-31",
+    "reportingYear": 2011,
     "status": "published",
-    "source": "legacy",
     "files": [
       {
         "id": "main",
         "filename": "31106821_2011.rtf",
-        "label": "Скачать файл",
+        "label": "Основний документ",
         "format": "RTF",
         "role": "main",
         "signsFileId": null,
         "publicPath": "/documents/2011/2011-hodovaia-ynformatsyia-emytenta-tsennykh-bumah-za-2011-hod/31106821_2011.rtf",
-        "legacyUrl": "https://www.invest.autotrading.ua/downloads/31106821_2011.rtf",
         "sizeBytes": 1917200,
         "checksumSha256": "a96165a83b1d427f1e87b6cf880c7eec8d15b439d60674d564b6811a1a14d0ef"
       }

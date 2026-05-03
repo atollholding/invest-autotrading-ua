@@ -1,10 +1,11 @@
 # Copy this file to `.github/CODEOWNERS` after the GitHub repository owner/team is known.
 # Replace @OWNER with the real GitHub owner or team, for example @company/web.
 
-# Default owner.
-* @OWNER
-
 # Engineering-owned files. CMS administrators should not edit these through GitHub.
+#
+# Do not add a global `* @OWNER` rule here. The CMS writes directly to content
+# and upload paths, so CODEOWNERS should protect code/build/config files without
+# turning normal CMS publishing into a required-review workflow.
 /src/components/ @OWNER
 /src/pages/ @OWNER
 /src/layouts/ @OWNER
@@ -15,4 +16,3 @@
 /package.json @OWNER
 /package-lock.json @OWNER
 /tsconfig.json @OWNER
-

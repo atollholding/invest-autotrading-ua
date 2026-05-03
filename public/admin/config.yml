@@ -5,7 +5,7 @@ backend:
 
 local_backend: true
 
-media_folder: public/images/uploads
+media_folder: /public/images/uploads
 public_folder: /images/uploads
 
 collections:
@@ -310,75 +310,61 @@ collections:
               - { label: Адресу скопійовано, name: addressCopied, widget: string }
 
   - name: issuer_documents
-    label: Нові документи емітента
+    label: Публікації документів
     folder: src/content/documents/groups
     create: true
     extension: json
     format: json
-    slug: "{{year}}-{{slug}}"
-    media_folder: public/documents/uploads
+    identifier_field: publicationKind
+    slug: "{{publishedAt}}-{{publicationKind}}-{{hour}}{{minute}}{{second}}"
+    media_folder: /public/documents/uploads
     public_folder: /documents/uploads
-    summary: "{{year}} · {{title}}"
+    summary: "{{publicationKind}} · {{publishedAt}}"
+    sortable_fields:
+      fields: [createdAt, publishedAt, status, publicationKind]
+      default:
+        field: createdAt
+        direction: descending
     fields:
-      - { label: ID, name: id, widget: string, hint: "Стабільний slug, наприклад 2026-richna-informatsiia-emitenta" }
-      - { label: Повна назва, name: title, widget: string, hint: "Офіційна назва документа без скорочень." }
-      - { label: Коротка назва для сайту, name: displayTitle, widget: string, required: false, hint: "Наприклад: Річна інформація за 2025 рік. Якщо порожньо, сайт сформує коротку назву автоматично." }
-      - label: Тип
-        name: type
+      - { label: Дата додавання, name: createdAt, widget: hidden, default: "{{datetime}}" }
+      - label: Тип публікації
+        name: publicationKind
         widget: select
+        hint: "Оберіть бізнес-тип документа. Назви, фільтри й службовий ID сайт сформує автоматично."
         options:
-          - Річна інформація
-          - Особлива інформація
-          - Інформація для акціонерів
-          - Загальні збори акціонерів
-          - Протоколи
-          - Структура власності
-          - Організаційна структура
-          - Інформація емітента
-      - label: Короткий тип для фільтра
-        name: displayType
-        widget: select
-        required: false
-        hint: "Якщо порожньо, сайт підставить значення автоматично."
-        options:
-          - Річна інформація
-          - Особлива інформація
-          - Для акціонерів
-          - Загальні збори
-          - Протоколи
-          - Структура власності
-          - Організаційна структура
-          - Інформація емітента
-      - { label: Рік, name: year, widget: number, value_type: int, min: 2000 }
-      - { label: Дата публікації, name: publishedAt, widget: datetime, date_format: "YYYY-MM-DD", time_format: false }
-      - { label: Звітний рік, name: reportingYear, widget: number, value_type: int, required: false, min: 2000, hint: "Для річної інформації, структури власності або організаційної структури. Наприклад: 2025." }
-      - { label: Станом на / кінець періоду, name: periodEnd, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, required: false, hint: "Наприклад: 2025-12-31 для документів станом на 31.12.2025." }
+          - { label: Річна інформація, value: annual-report }
+          - { label: Організаційна структура, value: organization-structure }
+          - { label: Структура власності, value: ownership-structure }
+          - { label: Особлива інформація, value: special-info }
+          - { label: Загальні збори, value: shareholders-meeting }
+          - { label: Протоколи, value: protocol }
+          - { label: Для акціонерів, value: shareholder-info }
+          - { label: Інформація емітента, value: issuer-info }
+      - { label: Дата публікації, name: publishedAt, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, hint: "Дата, з якою документ має з'явитися в архіві." }
+      - { label: Звітний рік, name: reportingYear, widget: string, required: false, pattern: ["^(|20[0-9]{2}|19[0-9]{2})$", "Вкажіть рік у форматі 2025 або залиште порожнім."], hint: "Для річної інформації: наприклад 2025. Для інших документів можна залишити порожнім, якщо є дата 'станом на'." }
+      - { label: Станом на / кінець періоду, name: periodEnd, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, required: false, hint: "Для структури власності або організаційної структури: наприклад 2025-12-31." }
+      - label: Файли публікації
+        name: files
+        widget: file
+        multiple: true
+        min: 1
+        accept: ".pdf,.doc,.docx,.rtf,.xml,.p7s,.zip"
+        hint: "Додайте весь пакет файлів одразу: документ, підпис .p7s, XML-звіт і підпис XML, якщо вони є. Ролі, зв'язки підписів, розмір і SHA-256 сайт визначить автоматично."
       - label: Статус
         name: status
         widget: select
-        default: published
+        default: draft
         options:
-          - { label: Опубліковано, value: published }
           - { label: Чернетка, value: draft }
-      - label: Файли
-        name: files
-        widget: list
-        min: 1
-        summary: "{{fields.label}} · {{fields.format}}"
+          - { label: Опубліковано, value: published }
+        hint: "Чернетки зберігаються в репозиторії, але не показуються на сайті."
+      - label: Додатково
+        name: advanced
+        widget: object
+        required: false
+        collapsed: true
+        hint: "Не відкривати для стандартних нових публікацій. Це ручні override-поля для нестандартних або архівних записів; сайт і так автоматично сформує ID, назви, ролі файлів і checksum."
         fields:
-          - { label: ID файлу, name: id, widget: string, required: false, hint: "Стабільний ID для зв'язків, наприклад main або xml. Якщо порожньо, сайт сформує автоматично." }
-          - { label: Підпис файлу, name: label, widget: string, required: false, hint: "Наприклад: Основний документ, Підпис основного документа, XML-звіт." }
-          - label: Роль
-            name: role
-            widget: select
-            options:
-              - { label: Основний документ, value: main }
-              - { label: Підпис документа, value: signature }
-              - { label: XML-звіт, value: xml }
-              - { label: Підпис XML-звіту, value: xml-signature }
-          - label: Формат
-            name: format
-            widget: select
-            options: [PDF, DOC, DOCX, RTF, XML, P7S, ZIP]
-          - { label: Підписує файл з ID, name: signsFileId, widget: string, required: false, hint: "Для .p7s: вкажіть main або xml. Якщо назва .p7s точно повторює назву підписаного файлу + .p7s, сайт визначить зв'язок автоматично." }
-          - { label: Файл, name: publicPath, widget: file, hint: "Файл зберігається в public/documents/uploads; розмір і SHA-256 згенерує build-скрипт." }
+          - { label: Стабільний ID, name: id, widget: string, required: false, hint: "Для старих записів не змінювати. Для нових зазвичай залишати порожнім." }
+          - { label: Повна назва вручну, name: titleOverride, widget: string, required: false, hint: "Якщо порожньо, сайт сформує назву автоматично." }
+          - { label: Коротка назва вручну, name: displayTitleOverride, widget: string, required: false, hint: "Якщо порожньо, сайт сформує коротку назву автоматично." }

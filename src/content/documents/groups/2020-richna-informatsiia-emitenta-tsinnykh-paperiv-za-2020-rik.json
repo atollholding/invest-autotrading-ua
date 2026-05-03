@@ -1,0 +1,18 @@
+{
+  "publicationKind": "annual-report",
+  "publishedAt": "2020-12-31",
+  "createdAt": "2020-12-31",
+  "status": "published",
+  "files": [
+    "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2020-rik/31106821_2020_сайт.rtf",
+    "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2020-rik/31106821_2020_сайт.rtf.p7s",
+    "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2020-rik/Report.xml",
+    "/documents/2020/2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2020-rik/Report.xml.p7s"
+  ],
+  "periodEnd": "2020-12-31",
+  "reportingYear": "2020",
+  "advanced": {
+    "id": "2020-richna-informatsiia-emitenta-tsinnykh-paperiv-za-2020-rik",
+    "titleOverride": "Річна інформація емітента цінних паперів за 2020 рік"
+  }
+}

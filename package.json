@@ -6,9 +6,12 @@
   "type": "module",
   "scripts": {
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
-    "build": "node scripts/build-manifest.mjs && ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "manifest": "node scripts/build-manifest.mjs",
+    "documents:orphans": "node scripts/check-document-orphans.mjs",
+    "documents:clean-orphans": "node scripts/check-document-orphans.mjs --clean",
+    "build": "node scripts/build-manifest.mjs && node scripts/check-document-orphans.mjs && ASTRO_TELEMETRY_DISABLED=1 astro build",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
-    "check": "node scripts/build-manifest.mjs --verify && ASTRO_TELEMETRY_DISABLED=1 astro check"
+    "check": "node scripts/build-manifest.mjs --verify && node scripts/check-document-orphans.mjs && ASTRO_TELEMETRY_DISABLED=1 astro check"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.4",

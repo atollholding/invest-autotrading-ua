@@ -25,10 +25,15 @@
 ```sh
 npm install
 npm run dev
+npm run manifest
+npm run documents:orphans
+npm run documents:clean-orphans
 npm run check
 npm run build
 npm run preview
 ```
+
+Для щоденної розробки зазвичай достатньо `npm run dev`, `npm run check` і `npm run build`. Команди `manifest` та `documents:*` потрібні переважно після локальної роботи з документами через CMS.
 
 ## Структура Проєкту
 
@@ -48,8 +53,11 @@ src/
     documents/
       groups/
       manifest.json
+      redirects.json
+  data/
   layouts/
   pages/
+    admin/
   styles/
 public/
   admin/
@@ -58,8 +66,10 @@ public/
     2011/
     ...
     uploads/
+  images/
 scripts/
   build-manifest.mjs
+  check-document-orphans.mjs
 docs/
 ```
 
@@ -78,19 +88,31 @@ docs/
 - навігація/footer: `src/content/site/navigation.json`;
 - дані компанії та контактів: `src/content/site/company.json`;
 - контент сторінок і SEO: `src/content/pages/*.json`;
-- метадані нових документів емітента: `src/content/documents/groups/*.json`;
+- метадані документів емітента: `src/content/documents/groups/*.json`;
 - завантаження нових документів емітента: `public/documents/uploads/`.
 
 Згенерований контент:
 
 - публічний manifest архіву: `src/content/documents/manifest.json`;
-- legacy redirects: `public/_redirects`.
+- redirects для старих URL файлів: `public/_redirects`.
 
-Не редагувати вручну згенеровані значення `sizeBytes` або `checksumSha256`. `scripts/build-manifest.mjs` рахує їх за файлами в `public/documents/**`.
+Не редагувати вручну `src/content/documents/manifest.json`, `sizeBytes` або `checksumSha256`. `scripts/build-manifest.mjs` рахує їх за файлами в `public/documents/**`.
+
+Корисні команди для документів:
+
+- `npm run manifest` - перегенерувати `src/content/documents/manifest.json` після локальної роботи в CMS;
+- `npm run documents:orphans` - перевірити, чи немає завантажених файлів без прив'язки до публікації;
+- `npm run documents:clean-orphans` - видалити такі файли після ручної перевірки списку.
 
 ## Документи
 
 Production-файли емітента лежать у `public/documents/**` і коммітяться у репозиторій. Сюди входить чинний публічний архів документів.
+
+Старий архів і нові публікації використовують одну схему metadata:
+
+```text
+src/content/documents/groups/<slug>.json
+```
 
 Нові документи, додані через CMS, зберігаються у:
 
@@ -98,11 +120,11 @@ Production-файли емітента лежать у `public/documents/**` і 
 public/documents/uploads/
 ```
 
-Кожна нова публікація має мати метадані у:
+Чернетки документів також зберігаються в GitHub і потрапляють у build як файли, але не показуються в публічному архіві, доки запис має `status: draft`.
 
-```text
-src/content/documents/groups/<slug>.json
-```
+Видалення публікації в CMS не гарантує видалення завантажених файлів. Після видалення запису треба запускати `npm run documents:orphans` і очищати зайві файли окремо.
+
+Цей сайт і репозиторій призначені тільки для матеріалів, які можна публікувати. Якщо файл потрапив у GitHub або Cloudflare Pages, його треба вважати опублікованим. Для справді чутливих файлів може знадобитися окреме очищення Git history і purge кешу Cloudflare.
 
 Правила архіву документів описані в `docs/document-archive-model.md`.
 
