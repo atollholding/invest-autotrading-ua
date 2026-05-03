@@ -4,7 +4,7 @@
 
 ## Ціль
 
-Після завершення дизайну сайт має перейти в режим контрольованого адміністрування:
+Сайт має працювати в режимі контрольованого адміністрування:
 
 - нетехнічний адміністратор редагує тексти, контакти, SEO та документи через Sveltia CMS;
 - файли емітента зберігаються в репозиторії як статичні файли;
@@ -20,12 +20,12 @@
 2. У Cloudflare Pages створити project з цього репозиторію.
 3. Build command: `npm run build`.
 4. Output directory: `dist`.
-5. Перевірити новий сайт на preview URL.
-6. Після погодження перемкнути основний домен на Cloudflare Pages через DNS.
+5. Перевірити сайт на preview URL.
+6. Після production-перевірки перемкнути основний домен на Cloudflare Pages через DNS.
 
-Це безпечна схема, бо погодження дизайну й контенту не блокує поточний production.
+Ця схема дозволяє перевірити реліз без зміни поточного production-домену.
 
-## Production після погодження
+## Production Checklist
 
 Перед перемиканням основного DNS:
 
@@ -42,7 +42,7 @@ Sveltia CMS технічно працює поверх GitHub. Тому обме
 1. CMS UI показує тільки дозволені collection-и: `src/content/**`, `public/documents/**`, `public/images/**`.
 2. GitHub захищає `main` через branch protection, review і CODEOWNERS.
 
-Важливо: якщо користувач має прямий write-доступ до GitHub-репозиторію, CMS не є повноцінною системою path-level permissions. Для цього потрібні правила GitHub. У нашій моделі адміністратор працює через CMS, а репозиторій і branch protection зменшують ризик випадкових змін коду.
+Важливо: якщо користувач має прямий write-доступ до GitHub-репозиторію, CMS не є повноцінною системою path-level permissions. Для цього потрібні правила GitHub. Рекомендована модель: адміністратор працює через CMS, а репозиторій і branch protection зменшують ризик випадкових змін коду.
 
 ## Рекомендовані GitHub-налаштування
 
@@ -76,9 +76,7 @@ CODEOWNERS має захищати:
 - `public/documents/uploads/**`;
 - `public/images/uploads/**`.
 
-## Поточний стан у проєкті
-
-Уже є:
+## Наявна конфігурація
 
 - `/admin/` з Sveltia CMS;
 - `public/admin/config.yml`;
@@ -91,10 +89,10 @@ CODEOWNERS має захищати:
 - `scripts/build-manifest.mjs`, який генерує public manifest, checksum і size;
 - перевірка, що `draft` не потрапляє в публічний архів.
 
-Потрібно доробити:
+## Налаштування перед запуском
 
 - замінити `OWNER/REPO` у `public/admin/config.yml` на реальний GitHub repo;
-- після створення Cloudflare Pages прописати staging URL у CMS config;
+- після створення Cloudflare Pages прописати production URL у CMS config, якщо це потрібно для CMS;
 - додати GitHub CI для `npm run check` і `npm run build`;
 - додати інструкцію для адміністратора: як додати новий документ з підписами.
 
@@ -105,7 +103,7 @@ CODEOWNERS має захищати:
 - metadata у `src/content/documents/groups/<slug>.json`;
 - файли у `public/documents/uploads/` або організованій підпапці;
 - `status: draft` до перевірки;
-- `status: published` після погодження.
+- `status: published` після production-перевірки.
 
 Оригінальні назви файлів не перейменовувати, особливо якщо є `.p7s`. Охайним має бути slug публікації, а не назва підписаного файлу.
 

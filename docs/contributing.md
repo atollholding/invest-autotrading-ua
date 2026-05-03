@@ -50,8 +50,8 @@ Verification:
 
 Не коммітимо:
 
-- `research/`;
-- `design/`;
+- робочі дослідницькі матеріали;
+- дизайн-handoff і макети, якщо вони не є production-артефактами;
 - `dist/`;
 - `node_modules/`;
 - `.astro/`;
@@ -65,4 +65,3 @@ Verification:
 - `public/documents/**`;
 - `public/admin/config.yml`;
 - production-документацію в `docs/`.
-
