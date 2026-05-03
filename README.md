@@ -18,6 +18,8 @@
 - GitHub як репозиторій коду й контенту;
 - Cloudflare Pages для хостингу.
 
+Рекомендований runtime: Node.js 22. Версія зафіксована в `.node-version`, `.nvmrc` і `package.json`.
+
 Сайт не залежить від runtime API Cloudflare. Його можна перенести на Netlify, Vercel або інший статичний хостинг, який може виконати `npm run build` і віддавати `dist/`.
 
 ## Команди
@@ -34,6 +36,8 @@ npm run preview
 ```
 
 Для щоденної розробки зазвичай достатньо `npm run dev`, `npm run check` і `npm run build`. Команди `manifest` та `documents:*` потрібні переважно після локальної роботи з документами через CMS.
+
+GitHub Actions workflow `.github/workflows/ci.yml` виконує `npm ci`, `npm run check` і `npm run build` для pull request і push у `main`.
 
 ## Структура Проєкту
 
@@ -135,11 +139,12 @@ Cloudflare Pages:
 - build command: `npm run build`;
 - output directory: `dist`.
 
-Рекомендований порядок публікації:
+Перед production-релізом:
 
-1. Опублікувати сайт на Cloudflare Pages.
-2. Перевірити сайт на preview URL.
-3. Перемикати основний DNS тільки після production-перевірки.
+- виконати `npm run check` і `npm run build`;
+- звірити архів документів і redirects;
+- перевірити `/admin/`;
+- переконатися, що draft-документи не показуються в публічному архіві.
 
 CMS і deployment описані в `docs/cms-and-deployment-plan.md`.
 
