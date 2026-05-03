@@ -113,14 +113,13 @@ Cloudflare Pages:
 - build command: `npm run build`;
 - output directory: `dist`.
 
-Рекомендований preview-flow:
+Рекомендований порядок публікації:
 
-1. Залишити старий сайт на `invest.autotrading.ua`.
-2. Опублікувати новий сайт на Cloudflare Pages.
-3. Підключити `invest-new.autotrading.ua` для погодження із замовником.
-4. Перемикати DNS для `invest.autotrading.ua` тільки після погодження.
+1. Опублікувати новий сайт на Cloudflare Pages.
+2. Перевірити сайт на preview URL.
+3. Перемикати основний DNS тільки після погодження.
 
-CMS і staging deployment описані в `docs/cms-and-deployment-plan.md`.
+CMS і deployment описані в `docs/cms-and-deployment-plan.md`.
 
 ## Робота З Репозиторієм
 

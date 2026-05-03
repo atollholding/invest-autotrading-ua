@@ -1,4 +1,4 @@
-# CMS і staging deployment
+# CMS і deployment
 
 Дата: 2026-05-03
 
@@ -10,11 +10,9 @@
 - файли емітента зберігаються в репозиторії як статичні файли;
 - build-скрипт рахує розміри й SHA-256, а не адміністратор;
 - код, стилі, build-скрипти й залежності не експонуються в CMS;
-- сайт можна попередньо показати на staging-домені, не вимикаючи старий `invest.autotrading.ua`.
+- сайт можна попередньо перевірити на preview URL перед перемиканням основного DNS.
 
-## Staging-домен
-
-Так, схема `invest-new.autotrading.ua` для погодження замовником підходить.
+## Preview перед production
 
 Рекомендована модель:
 
@@ -22,27 +20,19 @@
 2. У Cloudflare Pages створити project з цього репозиторію.
 3. Build command: `npm run build`.
 4. Output directory: `dist`.
-5. Додати custom domain `invest-new.autotrading.ua`.
-6. Старий сайт залишити на `invest.autotrading.ua` до погодження.
-7. Після погодження додати/перемкнути `invest.autotrading.ua` на той самий Cloudflare Pages project через DNS.
-8. Після перемикання можна залишити `invest-new.autotrading.ua` як службовий staging або прибрати його.
+5. Перевірити новий сайт на preview URL.
+6. Після погодження перемкнути основний домен на Cloudflare Pages через DNS.
 
-Це безпечна схема, бо старий і новий сайт працюють паралельно. Погодження дизайну й контенту не блокує поточний production.
+Це безпечна схема, бо погодження дизайну й контенту не блокує поточний production.
 
 ## Production після погодження
-
-Фінальна схема:
-
-- `invest.autotrading.ua` - основний production-домен;
-- `invest-new.autotrading.ua` - тимчасовий staging або preview-домен;
-- стандартний `*.pages.dev` домен Cloudflare Pages - технічний fallback.
 
 Перед перемиканням основного DNS:
 
 - провести фінальну юридичну перевірку публічного репозиторію;
 - звірити archive manifest з фактичними файлами;
 - перевірити legacy redirects;
-- перевірити `/admin/` на staging-домені;
+- перевірити `/admin/` на preview URL;
 - перевірити, що draft-документи не потрапляють у публічний архів.
 
 ## CMS-доступ
