@@ -85,6 +85,27 @@ function fillText(text, vars = {}) {
   return String(text || "").replace(/\{([a-zA-Z0-9_]+)\}/g, (_, key) => vars[key] ?? "");
 }
 
+function updateDocumentMetadata(pageId, pageContent) {
+  if (typeof document === "undefined" || typeof window === "undefined") return;
+  const seo = pageContent?.[pageId]?.seo;
+  const title = seo?.title;
+  const description = seo?.description;
+  const url = `${window.location.origin}${window.location.pathname}`;
+
+  if (title) {
+    document.title = title;
+    document.querySelector('meta[property="og:title"]')?.setAttribute("content", title);
+  }
+
+  if (description) {
+    document.querySelector('meta[name="description"]')?.setAttribute("content", description);
+    document.querySelector('meta[property="og:description"]')?.setAttribute("content", description);
+  }
+
+  document.querySelector('link[rel="canonical"]')?.setAttribute("href", url);
+  document.querySelector('meta[property="og:url"]')?.setAttribute("content", url);
+}
+
 function TextLines({ lines, emphasisLine = -1 }) {
   const safeLines = Array.isArray(lines) ? lines : String(lines || "").split("\n");
   return safeLines.map((line, index) => (
@@ -846,12 +867,17 @@ export default function SiteApp({ initialPage = "home", manifest, company, conte
     return () => window.removeEventListener("popstate", sync);
   }, []);
 
+  useEffect(() => {
+    updateDocumentMetadata(page, pageContent);
+  }, [page, pageContent]);
+
   function go(id, event, hash) {
     if (event) event.preventDefault();
     setPage(id);
     if (typeof window !== "undefined") {
       const url = hash ? `${pages[id]}#${encodeURIComponent(hash)}` : pages[id];
       window.history.pushState({}, "", url);
+      updateDocumentMetadata(id, pageContent);
       window.scrollTo({ top: 0, behavior: "auto" });
     }
   }

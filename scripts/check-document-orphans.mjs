@@ -8,7 +8,12 @@ const ignoredFiles = new Set([".gitkeep", ".DS_Store", "Thumbs.db"]);
 
 function toPublicPath(value) {
   if (!value) return null;
-  const normalized = String(value).replaceAll("\\", "/").replace(/^\/+/, "");
+  const source = typeof value === "object" ? value.publicPath || value.path : value;
+  if (!source) return null;
+  const normalized = String(source)
+    .replaceAll("\\", "/")
+    .replace(/^\/+/, "")
+    .replace(/^files\//, "documents/");
 
   if (normalized.startsWith("public/documents/")) {
     return `/${normalized.slice("public/".length)}`;

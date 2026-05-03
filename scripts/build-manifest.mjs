@@ -155,6 +155,10 @@ function normalizeDate(value) {
   return text;
 }
 
+function isIsoDate(value) {
+  return /^((?:19|20)\d{2})-\d{2}-\d{2}$/.test(String(value || ""));
+}
+
 function formatDisplayDate(iso) {
   const normalized = normalizeDate(iso);
   if (!normalized) return "";
@@ -214,6 +218,14 @@ function normalizeKind(group) {
   if (group.type && typeAliasMap[group.type]) return typeAliasMap[group.type];
   if (group.type && kindByType[group.type]) return kindByType[group.type];
   return "issuer-info";
+}
+
+function hasKnownKind(group) {
+  return Boolean(
+    (group.publicationKind && publicationKinds[group.publicationKind])
+      || (group.type && typeAliasMap[group.type])
+      || (group.type && kindByType[group.type]),
+  );
 }
 
 function titleForGroup(group, kind, publishedAt, periodEnd, reportingYear) {
@@ -384,10 +396,33 @@ function normalizeFiles(files, groupId) {
   return records;
 }
 
+function validateGroupSource(group) {
+  const label = group.id || group.titleOverride || group.title || group.publishedAt || "unknown document group";
+
+  if (!hasKnownKind(group)) {
+    throw new Error(`Document group "${label}" must define a known publicationKind or legacy type.`);
+  }
+
+  const publishedAt = normalizeDate(group.publishedAt) || normalizeDate(group.date);
+  if (!isIsoDate(publishedAt)) {
+    throw new Error(`Document group "${label}" must define publishedAt in YYYY-MM-DD format.`);
+  }
+
+  if (!["draft", "published"].includes(group.status)) {
+    throw new Error(`Document group "${label}" must define status as draft or published.`);
+  }
+
+  const files = Array.isArray(group.files) ? group.files : group.files ? [group.files] : [];
+  if (files.length === 0) {
+    throw new Error(`Document group "${label}" must reference at least one file.`);
+  }
+}
+
 function normalizeGroup(group) {
   group = { ...(group.advanced || {}), ...group };
+  validateGroupSource(group);
   const publicationKind = normalizeKind(group);
-  const publishedAt = normalizeDate(group.publishedAt) || normalizeDate(group.date) || "2000-01-01";
+  const publishedAt = normalizeDate(group.publishedAt) || normalizeDate(group.date);
   const periodEnd = inferPeriodEnd({ ...group, publicationKind });
   const reportingYear = inferReportingYear(group, periodEnd);
   const year = Number(group.year || publishedAt.slice(0, 4));
@@ -406,7 +441,7 @@ function normalizeGroup(group) {
     publishedAt,
     periodEnd,
     reportingYear,
-    status: group.status || "published",
+    status: group.status,
     files: normalizeFiles(Array.isArray(group.files) ? group.files : group.files ? [group.files] : [], id),
   };
 
@@ -433,8 +468,6 @@ const groups = ensureUniqueGroupIds(readDocumentGroups())
   .filter((group) => group.status === "published")
   .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || b.year - a.year || a.id.localeCompare(b.id));
 
-writeFileSync(outputPath, JSON.stringify(groups, null, 2) + "\n");
-
 const redirects = [
   "# Issuer file redirects",
   ...groups.flatMap((group) =>
@@ -447,6 +480,21 @@ const redirects = [
   ).sort(),
   "",
 ].join("\n");
-writeFileSync(redirectsPath, redirects);
+
+const manifestOutput = JSON.stringify(groups, null, 2) + "\n";
+
+if (verifyOnly) {
+  const currentManifest = existsSync(outputPath) ? readFileSync(outputPath, "utf8") : "";
+  const currentRedirects = existsSync(redirectsPath) ? readFileSync(redirectsPath, "utf8") : "";
+  if (currentManifest !== manifestOutput) {
+    throw new Error(`${outputPath} is stale. Run npm run manifest and commit the generated manifest.`);
+  }
+  if (currentRedirects !== redirects) {
+    throw new Error(`${redirectsPath} is stale. Run npm run manifest and commit the generated redirects.`);
+  }
+} else {
+  writeFileSync(outputPath, manifestOutput);
+  writeFileSync(redirectsPath, redirects);
+}
 
 console.log(`Manifest ready: ${groups.length} groups, ${groups.reduce((sum, group) => sum + group.files.length, 0)} files`);
