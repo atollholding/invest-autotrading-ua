@@ -37,12 +37,18 @@
 
 ## CMS-доступ
 
-Sveltia CMS технічно працює поверх GitHub. Тому обмеження ризику складається з двох шарів:
+Проєкт використовує один GitHub-репозиторій для production-коду, CMS-контенту і публічних документів емітента.
 
-1. CMS UI показує тільки дозволені collection-и: `src/content/**`, `public/documents/**`, `public/images/**`.
-2. GitHub захищає `main` через branch protection, review і CODEOWNERS.
+Це свідоме рішення для простого лендінгу з одним основним адміністратором. Обґрунтування і межі застосування описані в `docs/adr-001-single-repository-cms.md`.
 
-Важливо: якщо користувач має прямий write-доступ до GitHub-репозиторію, CMS не є повноцінною системою path-level permissions. Для цього потрібні правила GitHub. Рекомендована модель: адміністратор працює через CMS, а репозиторій і branch protection зменшують ризик випадкових змін коду.
+Для CMS-доступу використовувати окремий GitHub-акаунт або службовий акаунт компанії з fine-grained token, обмеженим конкретним репозиторієм і мінімально потрібними permissions:
+
+- `Contents: Read and write`;
+- `Metadata: Read`.
+
+Не надавати CMS-токену permissions для administration, secrets, actions, workflows або інших можливостей, які не потрібні для редагування контенту.
+
+Важливо: GitHub token з `Contents: Read and write` не обмежує запис окремими шляхами всередині репозиторію. Обмеження на рівні CMS UI не є повноцінною path-level permission моделлю. Для поточного масштабу проєкту цей компроміс прийнято свідомо.
 
 ## Рекомендовані GitHub-налаштування
 
@@ -52,7 +58,7 @@ Sveltia CMS технічно працює поверх GitHub. Тому обме
 - вимагати Pull Request перед merge;
 - вимагати проходження `npm run check` / build у CI;
 - вимагати review для змін у коді, стилях, build-скриптах і конфігурації;
-- дозволити контентні PR-и від CMS через editorial workflow.
+- використовувати review для змін у коді та конфігурації.
 
 CODEOWNERS має захищати:
 
@@ -80,7 +86,6 @@ CODEOWNERS має захищати:
 
 - `/admin/` з Sveltia CMS;
 - `public/admin/config.yml`;
-- `publish_mode: editorial_workflow`;
 - `src/content/site/company.json`;
 - `src/content/site/navigation.json`;
 - `src/content/pages/home.json`, `about.json`, `documents.json`, `contacts.json`;
@@ -88,6 +93,8 @@ CODEOWNERS має захищати:
 - `public/documents/uploads/` для нових файлів;
 - `scripts/build-manifest.mjs`, який генерує public manifest, checksum і size;
 - перевірка, що `draft` не потрапляє в публічний архів.
+
+CMS працює в режимі прямого запису в GitHub-репозиторій. Draft-стан документів контролюється полем `status` у metadata публікації, а не окремим workflow у CMS.
 
 ## Налаштування перед запуском
 
