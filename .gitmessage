@@ -1,0 +1,11 @@
+type(scope): short summary
+
+Detailed body:
+- what changed
+- why it changed
+- any user-visible or operational impact
+
+Verification:
+- npm run check
+- npm run build
+

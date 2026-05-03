@@ -1,0 +1,385 @@
+backend:
+  name: github
+  repo: OWNER/REPO
+  branch: main
+
+local_backend: true
+publish_mode: editorial_workflow
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: site
+    label: Сайт
+    files:
+      - name: company
+        label: Компанія та контакти
+        file: src/content/site/company.json
+        format: json
+        fields:
+          - { label: Назва, name: name, widget: string }
+          - { label: Назва для текстів сайту, name: displayName, widget: string }
+          - { label: Коротка назва, name: shortName, widget: string }
+          - { label: Повна назва, name: fullName, widget: string }
+          - { label: Повна назва для сайту, name: displayFullName, widget: string }
+          - { label: Скорочена юридична назва, name: legalShortName, widget: string }
+          - { label: ЄДРПОУ, name: edrpou, widget: string }
+          - { label: Дата заснування, name: founded, widget: string }
+          - { label: Рік заснування, name: foundedYear, widget: number }
+          - { label: Керівник, name: director, widget: string }
+          - { label: Телефон, name: phone, widget: string }
+          - { label: Телефон href, name: phoneHref, widget: string }
+          - { label: E-mail, name: email, widget: string }
+          - { label: E-mail href, name: emailHref, widget: string }
+          - { label: Юридична адреса, name: address, widget: string }
+          - { label: Коротка адреса, name: shortAddress, widget: string }
+          - { label: Примітка до адреси, name: formerAddressNote, widget: string, required: false }
+          - label: Координати
+            name: coordinates
+            widget: object
+            fields:
+              - { label: Latitude, name: lat, widget: number, value_type: float }
+              - { label: Longitude, name: lng, widget: number, value_type: float }
+              - { label: Latitude display, name: latDisplay, widget: string }
+              - { label: Longitude display, name: lngDisplay, widget: string }
+          - { label: Google Maps embed, name: mapsEmbed, widget: string }
+          - { label: Google Maps URL, name: mapsUrl, widget: string }
+          - { label: URL групи компаній, name: groupUrl, widget: string }
+      - name: navigation
+        label: Навігація і footer
+        file: src/content/site/navigation.json
+        format: json
+        fields:
+          - { label: Назва в шапці, name: brandLabel, widget: string }
+          - label: Пункти меню
+            name: items
+            widget: list
+            fields:
+              - { label: ID сторінки, name: id, widget: select, options: [home, about, documents, contacts] }
+              - { label: Назва, name: label, widget: string }
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - label: Назва бренду
+                name: brandLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+              - { label: Теглайн, name: tagline, widget: string }
+              - { label: Заголовок меню, name: siteHeading, widget: string }
+              - { label: Заголовок контактів, name: contactsHeading, widget: string }
+              - { label: Заголовок групи, name: groupHeading, widget: string }
+              - { label: Посилання на групу, name: groupLabel, widget: string }
+              - label: Адреса у footer
+                name: addressLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+              - { label: Локація внизу, name: locationLabel, widget: string }
+      - name: home
+        label: "Сторінка: Головна"
+        file: src/content/pages/home.json
+        format: json
+        fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Заголовок
+                name: titleLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+              - { label: Номер акцентного рядка, name: emphasisLine, widget: number, value_type: int, min: -1, required: false }
+              - { label: Текст, name: lead, widget: text, hint: "Можна використовувати {displayName} і {yearsSinceFounded}." }
+              - { label: Основна кнопка, name: primaryAction, widget: string }
+              - { label: Друга кнопка, name: secondaryAction, widget: string }
+              - label: Факти
+                name: facts
+                widget: list
+                fields:
+                  - { label: Назва, name: key, widget: string }
+                  - { label: Значення, name: value, widget: string }
+                  - { label: Підпис, name: sub, widget: string }
+          - label: Блок Про компанію
+            name: about
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Заголовок
+                name: titleLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+              - { label: Основний текст, name: lead, widget: text }
+              - { label: Додатковий текст, name: text, widget: text }
+              - { label: Кнопка, name: action, widget: string }
+          - label: Напрями діяльності
+            name: directions
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Напрями
+                name: items
+                widget: list
+                fields:
+                  - { label: Номер, name: num, widget: string }
+                  - { label: Назва, name: title, widget: string }
+                  - { label: Опис, name: description, widget: text }
+          - label: Досвід
+            name: experience
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Заголовок
+                name: titleLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+              - { label: Текст, name: lead, widget: text }
+              - label: Картки досвіду
+                name: items
+                widget: list
+                fields:
+                  - { label: Категорія, name: category, widget: string }
+                  - { label: Назва, name: title, widget: string }
+                  - { label: Примітка, name: note, widget: string }
+          - label: Документи на головній
+            name: documents
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Заголовок
+                name: titleLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+              - { label: Текст, name: lead, widget: text }
+              - { label: Підпис періоду, name: periodLabel, widget: string }
+              - { label: Кнопка, name: action, widget: string }
+          - label: Контактний CTA
+            name: location
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Заголовок, name: title, widget: string }
+              - { label: Кнопка, name: action, widget: string }
+      - name: about
+        label: "Сторінка: Про компанію"
+        file: src/content/pages/about.json
+        format: json
+        fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Заголовок
+                name: titleLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+              - { label: Текст, name: lead, widget: text }
+          - label: Історія
+            name: history
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Заголовок
+                name: titleLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+              - label: Абзаци
+                name: paragraphs
+                widget: list
+                field: { label: Абзац, name: paragraph, widget: text }
+          - label: Принципи роботи
+            name: principles
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Принципи
+                name: items
+                widget: list
+                fields:
+                  - { label: Назва, name: title, widget: string }
+                  - { label: Опис, name: description, widget: text }
+          - label: Юридична інформація
+            name: legal
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Група компаній, name: groupValue, widget: string }
+              - { label: Кнопка документів, name: documentsAction, widget: string }
+              - { label: Кнопка контактів, name: contactsAction, widget: string }
+      - name: documents_page
+        label: "Сторінка: Документи"
+        file: src/content/pages/documents.json
+        format: json
+        fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Заголовок, name: title, widget: string }
+              - { label: Текст, name: lead, widget: text }
+              - { label: Підпис періоду, name: periodLabel, widget: string }
+          - label: Фільтри
+            name: filters
+            widget: object
+            fields:
+              - { label: Placeholder пошуку, name: searchPlaceholder, widget: string }
+              - { label: ARIA label пошуку, name: searchLabel, widget: string }
+              - { label: Рік, name: yearLabel, widget: string }
+              - { label: Тип, name: typeLabel, widget: string }
+              - { label: Всі, name: allLabel, widget: string }
+          - label: Порожній результат
+            name: empty
+            widget: object
+            fields:
+              - { label: Заголовок, name: title, widget: string }
+              - { label: Підказка, name: hint, widget: string }
+              - { label: Кнопка очистки, name: clearAction, widget: string }
+          - label: Юридичне застереження
+            name: notice
+            widget: object
+            fields:
+              - { label: Заголовок, name: title, widget: string }
+              - { label: Текст, name: text, widget: text }
+      - name: contacts
+        label: "Сторінка: Контакти"
+        file: src/content/pages/contacts.json
+        format: json
+        fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Заголовок
+                name: titleLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+          - label: Контактна картка
+            name: card
+            widget: object
+            fields:
+              - { label: Юридична назва, name: legalNameLabel, widget: string }
+              - { label: Адреса, name: addressLabel, widget: string }
+              - label: Рядки адреси
+                name: addressLines
+                widget: list
+                field: { label: Рядок, name: line, widget: string }
+              - { label: Кнопка копіювання адреси, name: copyAddressAction, widget: string }
+              - { label: Телефон, name: phoneLabel, widget: string }
+              - { label: Кнопка телефону, name: phoneAction, widget: string }
+              - { label: E-mail, name: emailLabel, widget: string }
+              - { label: Кнопка e-mail, name: emailAction, widget: string }
+              - { label: Керівник, name: directorLabel, widget: string }
+          - label: Карта
+            name: map
+            widget: object
+            fields:
+              - { label: Title iframe, name: title, widget: string }
+              - { label: Кнопка карти, name: action, widget: string }
+              - { label: Підпис, name: caption, widget: string }
+          - label: Toast
+            name: toast
+            widget: object
+            fields:
+              - { label: Адресу скопійовано, name: addressCopied, widget: string }
+
+  - name: issuer_documents
+    label: Нові документи емітента
+    folder: src/content/documents/groups
+    create: true
+    extension: json
+    format: json
+    slug: "{{year}}-{{slug}}"
+    media_folder: public/documents/uploads
+    public_folder: /documents/uploads
+    summary: "{{year}} · {{title}}"
+    fields:
+      - { label: ID, name: id, widget: string, hint: "Стабільний slug, наприклад 2026-richna-informatsiia-emitenta" }
+      - { label: Повна назва, name: title, widget: string, hint: "Офіційна назва документа без скорочень." }
+      - { label: Коротка назва для сайту, name: displayTitle, widget: string, required: false, hint: "Наприклад: Річна інформація за 2025 рік. Якщо порожньо, сайт сформує коротку назву автоматично." }
+      - label: Тип
+        name: type
+        widget: select
+        options:
+          - Річна інформація
+          - Особлива інформація
+          - Інформація для акціонерів
+          - Загальні збори акціонерів
+          - Протоколи
+          - Структура власності
+          - Організаційна структура
+          - Інформація емітента
+      - label: Короткий тип для фільтра
+        name: displayType
+        widget: select
+        required: false
+        hint: "Якщо порожньо, сайт підставить значення автоматично."
+        options:
+          - Річна інформація
+          - Особлива інформація
+          - Для акціонерів
+          - Загальні збори
+          - Протоколи
+          - Структура власності
+          - Організаційна структура
+          - Інформація емітента
+      - { label: Рік, name: year, widget: number, value_type: int, min: 2000 }
+      - { label: Дата публікації, name: publishedAt, widget: datetime, date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Звітний рік, name: reportingYear, widget: number, value_type: int, required: false, min: 2000, hint: "Для річної інформації, структури власності або організаційної структури. Наприклад: 2025." }
+      - { label: Станом на / кінець періоду, name: periodEnd, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, required: false, hint: "Наприклад: 2025-12-31 для документів станом на 31.12.2025." }
+      - label: Статус
+        name: status
+        widget: select
+        default: published
+        options:
+          - { label: Опубліковано, value: published }
+          - { label: Чернетка, value: draft }
+      - label: Файли
+        name: files
+        widget: list
+        min: 1
+        summary: "{{fields.label}} · {{fields.format}}"
+        fields:
+          - { label: ID файлу, name: id, widget: string, required: false, hint: "Стабільний ID для зв'язків, наприклад main або xml. Якщо порожньо, сайт сформує автоматично." }
+          - { label: Підпис файлу, name: label, widget: string, required: false, hint: "Наприклад: Основний документ, Підпис основного документа, XML-звіт." }
+          - label: Роль
+            name: role
+            widget: select
+            options:
+              - { label: Основний документ, value: main }
+              - { label: Підпис документа, value: signature }
+              - { label: XML-звіт, value: xml }
+              - { label: Підпис XML-звіту, value: xml-signature }
+          - label: Формат
+            name: format
+            widget: select
+            options: [PDF, DOC, DOCX, RTF, XML, P7S, ZIP]
+          - { label: Підписує файл з ID, name: signsFileId, widget: string, required: false, hint: "Для .p7s: вкажіть main або xml. Якщо назва .p7s точно повторює назву підписаного файлу + .p7s, сайт визначить зв'язок автоматично." }
+          - { label: Файл, name: publicPath, widget: file, hint: "Файл зберігається в public/documents/uploads; розмір і SHA-256 згенерує build-скрипт." }

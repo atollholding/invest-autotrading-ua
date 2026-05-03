@@ -1,0 +1,18 @@
+# Copy this file to `.github/CODEOWNERS` after the GitHub repository owner/team is known.
+# Replace @OWNER with the real GitHub owner or team, for example @company/web.
+
+# Default owner.
+* @OWNER
+
+# Engineering-owned files. CMS administrators should not edit these through GitHub.
+/src/components/ @OWNER
+/src/pages/ @OWNER
+/src/layouts/ @OWNER
+/src/styles/ @OWNER
+/scripts/ @OWNER
+/public/admin/ @OWNER
+/astro.config.mjs @OWNER
+/package.json @OWNER
+/package-lock.json @OWNER
+/tsconfig.json @OWNER
+

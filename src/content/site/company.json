@@ -1,0 +1,28 @@
+{
+  "name": "ПрАТ \"АВТОТРЕЙДІНГ ІНВЕСТ\"",
+  "displayName": "ПрАТ «Автотрейдінг Інвест»",
+  "shortName": "Автотрейдінг Інвест",
+  "fullName": "Приватне акціонерне товариство \"Автотрейдінг Інвест\"",
+  "displayFullName": "Приватне акціонерне товариство «Автотрейдінг Інвест»",
+  "legalShortName": "ПрАТ «АВТОТРЕЙДІНГ ІНВЕСТ»",
+  "edrpou": "31106821",
+  "founded": "27.08.2000",
+  "foundedYear": 2000,
+  "director": "Боярин Петро Ілліч",
+  "phone": "(044) 490-10-96",
+  "phoneHref": "tel:+380444901096",
+  "email": "invest@autotrading.ua",
+  "emailHref": "mailto:invest@autotrading.ua",
+  "address": "Україна, 03062, місто Київ, Проспект Берестейський, будинок 67",
+  "shortAddress": "пр. Берестейський, 67, Київ, 03062",
+  "formerAddressNote": "колишній проспект Перемоги",
+  "coordinates": {
+    "lat": 50.45748492110255,
+    "lng": 30.407695899664215,
+    "latDisplay": "50.45748° N",
+    "lngDisplay": "30.40770° E"
+  },
+  "mapsEmbed": "https://www.google.com/maps?q=50.45748492110255,30.407695899664215&hl=uk&z=16&output=embed",
+  "mapsUrl": "https://www.google.com/maps?q=50.45748492110255,30.407695899664215",
+  "groupUrl": "https://www.atollholding.com.ua"
+}

@@ -1,0 +1,29 @@
+{
+  "seo": {
+    "title": "Контакти | ПрАТ \"АВТОТРЕЙДІНГ ІНВЕСТ\"",
+    "description": "Контакти ПрАТ «Автотрейдінг Інвест»: Київ, проспект Берестейський, 67, телефон, e-mail та Google Maps."
+  },
+  "hero": {
+    "eyebrow": "Контакти",
+    "titleLines": ["Київ,", "проспект Берестейський, 67"]
+  },
+  "card": {
+    "legalNameLabel": "Юридична назва",
+    "addressLabel": "Адреса",
+    "addressLines": ["пр. Берестейський, 67", "Київ, 03062, Україна"],
+    "copyAddressAction": "Копіювати адресу",
+    "phoneLabel": "Телефон",
+    "phoneAction": "Подзвонити",
+    "emailLabel": "E-mail",
+    "emailAction": "Написати",
+    "directorLabel": "Керівник"
+  },
+  "map": {
+    "title": "Google Maps — Берестейський 67",
+    "action": "Відкрити в Google Maps ↗",
+    "caption": "fig. 02 — локація"
+  },
+  "toast": {
+    "addressCopied": "Адресу скопійовано"
+  }
+}

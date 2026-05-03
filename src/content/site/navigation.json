@@ -1,0 +1,19 @@
+{
+  "brandLabel": "Автотрейдінг Інвест",
+  "items": [
+    { "id": "home", "label": "Головна" },
+    { "id": "about", "label": "Про компанію" },
+    { "id": "documents", "label": "Документи ПрАТ" },
+    { "id": "contacts", "label": "Контакти" }
+  ],
+  "footer": {
+    "brandLines": ["Автотрейдінг", "Інвест"],
+    "tagline": "ДЕВЕЛОПМЕНТ · ОРЕНДА · ЕКСПЛУАТАЦІЯ",
+    "siteHeading": "Сайт",
+    "contactsHeading": "Контакти",
+    "groupHeading": "Група компаній",
+    "groupLabel": "Atoll Holding ↗",
+    "addressLines": ["пр. Берестейський, 67", "Київ, 03062"],
+    "locationLabel": "Київ · Україна"
+  }
+}

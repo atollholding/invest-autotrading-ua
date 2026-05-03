@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SiteApp from "../components/SiteApp.jsx";
+import manifest from "../content/documents/manifest.json";
+import company from "../content/site/company.json";
+import navigation from "../content/site/navigation.json";
+import home from "../content/pages/home.json";
+import about from "../content/pages/about.json";
+import documents from "../content/pages/documents.json";
+import contacts from "../content/pages/contacts.json";
+import "../styles/global.css";
+
+const content = { navigation, pages: { home, about, documents, contacts } };
+---
+<BaseLayout
+  title={documents.seo.title}
+  description={documents.seo.description}
+>
+  <SiteApp client:load initialPage="documents" manifest={manifest} company={company} content={content} />
+</BaseLayout>
