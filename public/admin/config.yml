@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: OWNER/REPO
+  repo: atollholding/invest-autotrading-ua
   branch: main
 
 local_backend: true
