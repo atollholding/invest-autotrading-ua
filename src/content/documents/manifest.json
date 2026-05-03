@@ -146,23 +146,23 @@
     "files": [
       {
         "id": "main",
-        "filename": "31106821_значний правочин.docx",
+        "filename": "31106821_значний правочин.docx",
         "label": "Основний документ",
         "format": "DOCX",
         "role": "main",
         "signsFileId": null,
-        "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/31106821_значний правочин.docx",
+        "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/31106821_значний правочин.docx",
         "sizeBytes": 21028,
         "checksumSha256": "b571c46a8ef46e1e41e8637d9fa46dc1485e7fed045d9e36ad0412ac222d4aff"
       },
       {
         "id": "main-signature",
-        "filename": "31106821_значний правочин.docx.p7s",
+        "filename": "31106821_значний правочин.docx.p7s",
         "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
-        "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/31106821_значний правочин.docx.p7s",
+        "publicPath": "/documents/2025/2025-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii-2/31106821_значний правочин.docx.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "1b62929d73142c603fb93832463a410ce595bc8325602affbab57ff58b2838e1"
       },
@@ -204,23 +204,23 @@
     "files": [
       {
         "id": "main",
-        "filename": "Організаційна структура 2024.pdf",
+        "filename": "Організаційна структура 2024.pdf",
         "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
-        "publicPath": "/documents/2024/2024-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2024-roku/Організаційна структура 2024.pdf",
+        "publicPath": "/documents/2024/2024-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2024-roku/Організаційна структура 2024.pdf",
         "sizeBytes": 75770,
         "checksumSha256": "97924abb2c8741737adb01154236e20b78a3873389f5c3addfddd8749102caf8"
       },
       {
         "id": "main-signature",
-        "filename": "Організаційна структура 2024.pdf.p7s",
+        "filename": "Організаційна структура 2024.pdf.p7s",
         "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
-        "publicPath": "/documents/2024/2024-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2024-roku/Організаційна структура 2024.pdf.p7s",
+        "publicPath": "/documents/2024/2024-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2024-roku/Організаційна структура 2024.pdf.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "0e6f09ac9179ad585dd9c2db106700c7128e7f6254b75ec05019425aa74148f6"
       }
@@ -558,23 +558,23 @@
     "files": [
       {
         "id": "main",
-        "filename": "Організаційна структура 2023.pdf",
+        "filename": "Організаційна структура 2023.pdf",
         "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
-        "publicPath": "/documents/2023/2023-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2023-roku/Організаційна структура 2023.pdf",
+        "publicPath": "/documents/2023/2023-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2023-roku/Організаційна структура 2023.pdf",
         "sizeBytes": 75340,
         "checksumSha256": "487445ed85af29b605fb73c78e4b6494a98d0967005237d732d2e235eb7cb23e"
       },
       {
         "id": "main-signature",
-        "filename": "Організаційна структура 2023.pdf.p7s",
+        "filename": "Організаційна структура 2023.pdf.p7s",
         "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
-        "publicPath": "/documents/2023/2023-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2023-roku/Організаційна структура 2023.pdf.p7s",
+        "publicPath": "/documents/2023/2023-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2023-roku/Організаційна структура 2023.pdf.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "3df8c21b423239fc07a009f7194c0649e4011fd5278f8f94fefc92e59b027562"
       }
@@ -744,23 +744,23 @@
     "files": [
       {
         "id": "main",
-        "filename": "Організаційна структура 2022.pdf",
+        "filename": "Організаційна структура 2022.pdf",
         "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
-        "publicPath": "/documents/2022/2022-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2022-roku/Організаційна структура 2022.pdf",
+        "publicPath": "/documents/2022/2022-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2022-roku/Організаційна структура 2022.pdf",
         "sizeBytes": 75338,
         "checksumSha256": "19f09bf8b79dc289dfe2718b518b8bf93c20b1cc3703ad14c238d7ae5aa90eb9"
       },
       {
         "id": "main-signature",
-        "filename": "Організаційна структура 2022.pdf.p7s",
+        "filename": "Організаційна структура 2022.pdf.p7s",
         "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
-        "publicPath": "/documents/2022/2022-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2022-roku/Організаційна структура 2022.pdf.p7s",
+        "publicPath": "/documents/2022/2022-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2022-roku/Організаційна структура 2022.pdf.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "e40c8f900d28a3d619a91c42132951353e8802d99897608c3d13a5a4a8722467"
       }
@@ -1003,23 +1003,23 @@
     "files": [
       {
         "id": "main",
-        "filename": "Організаційна структура 2021.pdf",
+        "filename": "Організаційна структура 2021.pdf",
         "label": "Основний документ",
         "format": "PDF",
         "role": "main",
         "signsFileId": null,
-        "publicPath": "/documents/2021/2021-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2021-roku/Організаційна структура 2021.pdf",
+        "publicPath": "/documents/2021/2021-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2021-roku/Організаційна структура 2021.pdf",
         "sizeBytes": 75334,
         "checksumSha256": "616cc71e3871b1e14887eb759d92a681738efef0e6e5a0f04662eef03588785e"
       },
       {
         "id": "main-signature",
-        "filename": "Організаційна структура 2021.pdf.p7s",
+        "filename": "Організаційна структура 2021.pdf.p7s",
         "label": "Підпис основного документа",
         "format": "P7S",
         "role": "signature",
         "signsFileId": "main",
-        "publicPath": "/documents/2021/2021-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2021-roku/Організаційна структура 2021.pdf.p7s",
+        "publicPath": "/documents/2021/2021-orhanizatsiina-struktura-emitenta-stanom-na-31-hrudnia-2021-roku/Організаційна структура 2021.pdf.p7s",
         "sizeBytes": 18869,
         "checksumSha256": "3dee1e656af901f4f9565c8793a785e3cfabaa5b96f49949c63db6e5fee7199d"
       }

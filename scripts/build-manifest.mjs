@@ -335,7 +335,8 @@ function sourceFilePath(file) {
 
 function normalizePublicPath(value) {
   const clean = String(value || "").trim().replace(/^\/?public\//, "");
-  return clean.startsWith("/") ? clean : `/${clean}`;
+  const publicPath = clean.startsWith("/") ? clean : `/${clean}`;
+  return publicPath.normalize("NFC");
 }
 
 function normalizeFiles(files, groupId) {
@@ -460,7 +461,12 @@ function readDocumentGroups() {
 
 function readRedirectsMap() {
   if (!existsSync(redirectsMapPath)) return {};
-  return JSON.parse(readFileSync(redirectsMapPath, "utf8"));
+  return Object.fromEntries(
+    Object.entries(JSON.parse(readFileSync(redirectsMapPath, "utf8"))).map(([target, source]) => [
+      normalizePublicPath(target),
+      source,
+    ]),
+  );
 }
 
 const redirectsMap = readRedirectsMap();
