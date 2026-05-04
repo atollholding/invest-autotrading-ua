@@ -123,7 +123,9 @@ CMS-форма для документів навмисно спрощена. А
 
 ## Локальна робота з CMS
 
-У production Cloudflare Pages запускає `npm run build`, а build автоматично генерує manifest архіву.
+У production Cloudflare Pages запускає `npm run build`, а build автоматично генерує manifest архіву для поточного deployment.
+
+Після CMS-публікації в `main` GitHub Actions додатково запускає `npm run manifest` і, якщо `src/content/documents/manifest.json` або `public/_redirects` змінилися, коммітить generated-файли назад у репозиторій. Тому адміністратор не має запускати manifest вручну після production-публікації через CMS.
 
 Локально dev-сервер Astro не перегенеровує `src/content/documents/manifest.json` після кожного збереження в CMS. Після додавання, зміни статусу або видалення документа через `/admin/` у локальному репозиторії виконати:
 
