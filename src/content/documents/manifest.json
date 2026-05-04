@@ -1,5 +1,135 @@
 [
   {
+    "id": "2026-orhanizatsiina-struktura-stanom-na-2025-12-31",
+    "title": "Організаційна структура станом на 31.12.2025",
+    "displayTitle": "Організаційна структура станом на 31.12.2025",
+    "type": "Організаційна структура",
+    "displayType": "Організаційна структура",
+    "year": 2026,
+    "publishedAt": "2026-04-30",
+    "periodEnd": "2025-12-31",
+    "reportingYear": 2025,
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "Організаційна структура станом на 31.12.2025.pdf",
+        "label": "Основний документ",
+        "format": "PDF",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/uploads/Організаційна структура станом на 31.12.2025.pdf",
+        "sizeBytes": 75942,
+        "checksumSha256": "7b049b844c8be4b5a97481692b86ff560da0ce2645b17a78f830a929a1ac8b86"
+      },
+      {
+        "id": "main-signature",
+        "filename": "Організаційна структура станом на 31.12.2025.pdf.p7s",
+        "label": "Підпис основного документа",
+        "format": "P7S",
+        "role": "signature",
+        "signsFileId": "main",
+        "publicPath": "/documents/uploads/Організаційна структура станом на 31.12.2025.pdf.p7s",
+        "sizeBytes": 18908,
+        "checksumSha256": "4a2adc8a122b29f5c1a4dd49a9f8631592e0c3f44d3c5c8f4e13096205cc424a"
+      }
+    ]
+  },
+  {
+    "id": "2026-richna-informatsiia-za-2025-rik",
+    "title": "Річна інформація емітента цінних паперів за 2025 рік",
+    "displayTitle": "Річна інформація за 2025 рік",
+    "type": "Річна інформація",
+    "displayType": "Річна інформація",
+    "year": 2026,
+    "publishedAt": "2026-04-30",
+    "periodEnd": "2025-12-31",
+    "reportingYear": 2025,
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "31106821_2025.docx",
+        "label": "Основний документ",
+        "format": "DOCX",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/uploads/31106821_2025.docx",
+        "sizeBytes": 142615,
+        "checksumSha256": "aa2e76e6498f02ef387470131ebccfb7d52002439ca97d32790b083796bf1085"
+      },
+      {
+        "id": "main-signature",
+        "filename": "31106821_2025.docx.p7s",
+        "label": "Підпис основного документа",
+        "format": "P7S",
+        "role": "signature",
+        "signsFileId": "main",
+        "publicPath": "/documents/uploads/31106821_2025.docx.p7s",
+        "sizeBytes": 18908,
+        "checksumSha256": "e838b93a5640eb71609bb63d3335aca86f8170c7223567fced688829e5d2c717"
+      },
+      {
+        "id": "xml",
+        "filename": "ReportNoRNOKPP.xml",
+        "label": "XML-звіт",
+        "format": "XML",
+        "role": "xml",
+        "signsFileId": null,
+        "publicPath": "/documents/uploads/ReportNoRNOKPP.xml",
+        "sizeBytes": 2360601,
+        "checksumSha256": "ff3e5b1c213ca751a9190646a07cbec645ba65418e17625a17f31e3c9ae754fa"
+      },
+      {
+        "id": "xml-signature",
+        "filename": "ReportNoRNOKPP.xml.p7s",
+        "label": "Підпис XML-звіту",
+        "format": "P7S",
+        "role": "xml-signature",
+        "signsFileId": "xml",
+        "publicPath": "/documents/uploads/ReportNoRNOKPP.xml.p7s",
+        "sizeBytes": 18908,
+        "checksumSha256": "fa7b32e117ded184af9297016cae849c920abcd30897d2da5ece064eea1bd3a5"
+      }
+    ]
+  },
+  {
+    "id": "2026-struktura-vlasnosti-stanom-na-2025-12-31",
+    "title": "Структура власності емітента станом на 31.12.2025",
+    "displayTitle": "Структура власності станом на 31.12.2025",
+    "type": "Структура власності",
+    "displayType": "Структура власності",
+    "year": 2026,
+    "publishedAt": "2026-04-30",
+    "periodEnd": "2025-12-31",
+    "reportingYear": 2025,
+    "status": "published",
+    "files": [
+      {
+        "id": "main",
+        "filename": "Структура власності емітента станом на 31.12.2025.pdf",
+        "label": "Основний документ",
+        "format": "PDF",
+        "role": "main",
+        "signsFileId": null,
+        "publicPath": "/documents/uploads/Структура власності емітента станом на 31.12.2025.pdf",
+        "sizeBytes": 265790,
+        "checksumSha256": "6396052cde8b369dfb4a479b050d3a5745926bbae4f12f48b3dc89859adc5faa"
+      },
+      {
+        "id": "main-signature",
+        "filename": "Структура власності емітента станом на 31.12.2025.pdf.p7s",
+        "label": "Підпис основного документа",
+        "format": "P7S",
+        "role": "signature",
+        "signsFileId": "main",
+        "publicPath": "/documents/uploads/Структура власності емітента станом на 31.12.2025.pdf.p7s",
+        "sizeBytes": 18908,
+        "checksumSha256": "4b1533b4a5b3db91a9ba9705318532513d19a54ef19b38ac6812e7fdec45a22f"
+      }
+    ]
+  },
+  {
     "id": "2026-osoblyva-informatsiia-informatsiia-pro-ipotechni-tsinni-papery-sertyfikaty-fondu-operatsii",
     "title": "Особлива інформація / інформація про іпотечні цінні папери/ сертифікати фонду операцій з нерухомістю емітента (09.02.2026)",
     "displayTitle": "Особлива інформація від 09.02.2026",
