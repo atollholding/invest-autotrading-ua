@@ -474,7 +474,14 @@ const groups = ensureUniqueGroupIds(readDocumentGroups())
   .filter((group) => group.status === "published")
   .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || b.year - a.year || a.id.localeCompare(b.id));
 
+const legacyPageRedirects = [
+  "/rus/indexdf95.html  /documents/  301",
+];
+
 const redirects = [
+  "# Legacy page redirects",
+  ...legacyPageRedirects,
+  "",
   "# Issuer file redirects",
   ...groups.flatMap((group) =>
     group.files
