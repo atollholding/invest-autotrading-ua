@@ -283,7 +283,7 @@ function useToast() {
 
 function ExpVisual({ idx }) {
   const visuals = [
-    <svg viewBox="0 0 200 150" style={{ width: "100%", height: "100%", display: "block" }}>
+    <svg key="auto-infrastructure" viewBox="0 0 200 150" style={{ width: "100%", height: "100%", display: "block" }}>
       <defs>
         <pattern id={`grid-${idx}`} width="10" height="10" patternUnits="userSpaceOnUse">
           <path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(26,29,32,0.06)" strokeWidth="0.5" />
@@ -299,7 +299,7 @@ function ExpVisual({ idx }) {
       <rect x="150" y="105" width="20" height="20" fill="#1a1d20" opacity="0.1" />
       <line x1="0" y1="130" x2="200" y2="130" stroke="#1a1d20" strokeWidth="0.5" />
     </svg>,
-    <svg viewBox="0 0 200 150" style={{ width: "100%", height: "100%", display: "block" }}>
+    <svg key="corporate-spaces" viewBox="0 0 200 150" style={{ width: "100%", height: "100%", display: "block" }}>
       <defs>
         <pattern id={`grid-${idx}`} width="10" height="10" patternUnits="userSpaceOnUse">
           <path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(26,29,32,0.06)" strokeWidth="0.5" />
@@ -320,7 +320,7 @@ function ExpVisual({ idx }) {
       )))}
       <line x1="0" y1="130" x2="200" y2="130" stroke="#1a1d20" strokeWidth="0.5" />
     </svg>,
-    <svg viewBox="0 0 200 150" style={{ width: "100%", height: "100%", display: "block" }}>
+    <svg key="industrial-buildings" viewBox="0 0 200 150" style={{ width: "100%", height: "100%", display: "block" }}>
       <defs>
         <pattern id={`grid-${idx}`} width="10" height="10" patternUnits="userSpaceOnUse">
           <path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(26,29,32,0.06)" strokeWidth="0.5" />
@@ -334,7 +334,7 @@ function ExpVisual({ idx }) {
       <rect x="140" y="110" width="14" height="20" fill="#1a1d20" opacity="0.1" />
       <line x1="0" y1="130" x2="200" y2="130" stroke="#1a1d20" strokeWidth="0.5" />
     </svg>,
-    <svg viewBox="0 0 200 150" style={{ width: "100%", height: "100%", display: "block" }}>
+    <svg key="infrastructure-works" viewBox="0 0 200 150" style={{ width: "100%", height: "100%", display: "block" }}>
       <defs>
         <pattern id={`grid-${idx}`} width="10" height="10" patternUnits="userSpaceOnUse">
           <path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(26,29,32,0.06)" strokeWidth="0.5" />
