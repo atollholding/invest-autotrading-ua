@@ -307,7 +307,7 @@ function ExpVisual({ idx }) {
       </defs>
       <rect width="200" height="150" fill={`url(#grid-${idx})`} />
       <rect x="70" y="20" width="60" height="110" fill="none" stroke="#1a1d20" strokeWidth="1" />
-      {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((row) => [0, 1, 2].map((column) => (
+      {[0, 1, 2, 3, 4, 5, 6, 7, 8].flatMap((row) => [0, 1, 2].map((column) => (
         <rect
           key={`${row}-${column}`}
           x={75 + column * 18}
