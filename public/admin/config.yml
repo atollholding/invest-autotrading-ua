@@ -2,6 +2,7 @@ backend:
   name: github
   repo: atollholding/invest-autotrading-ua
   branch: main
+  base_url: https://sveltia-cms-auth.ath-dit.workers.dev
 
 media_folder: /public/images/uploads
 public_folder: /images/uploads
